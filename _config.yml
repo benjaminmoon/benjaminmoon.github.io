@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-GB"
 title                    : "Ben Moon"
 title_separator          : "-"
-subtitle                 : Fossils, Phylogeny, Evolution # site tagline that appears below site title in masthead
+subtitle                 : Evolution, Music, Design # site tagline that appears below site title in masthead
 name                     : "Ben Moon"
 description              : "A palaeontologist with a penchant for things that swim"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -141,13 +141,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/benjaminmoon"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-
 
 # Reading Files
 include:

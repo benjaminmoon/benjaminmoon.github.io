@@ -1,184 +1,498 @@
 ---
-layout: post
 title: The ichthyosaurian roundup of last year
-date: 2013-01-23 12:58:52.000000000 +00:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-01-23
 categories:
-- anatomy
-- biology
-- biomechanics
-- disparity
-- evolution
-- extinction
-- finite element analysis
-- geology
-- ichthyosaurs
-- outreach
-- palaeontology
-- phylogeny
-- taxonomy
+  - ichthyosaurs
 tags:
-- Acamptonectes
-- Argentina
-- Brachypterygius
-- cfd
-- Charmouth
-- computational fluid dynamics
-- Cretaceous
-- Europe
-- Evolution
-- fossil
-- France
-- genus stenopterygius
-- Germany
-- Holzmaden
-- ichthyosaur
-- Ichthyosaurus
-- Jurassic
-- Leptonectes
-- Lyme Regis
-- Maiaspondylus
-- Mesozoic
-- Mexico
-- Museum für Naturkunde
-- museum hauff
-- Nannopterygius
-- nature
-- North America
-- Ophthalmosaurus
-- Outreach
-- Peterborough
-- Platypterygius
-- Posidonia Shale
-- preservation
-- Russia
-- science
-- South America
-- southwestern germany
-- Stenopterygius
-- taphonomy
-- Triassic
-- university of bristol
-- USA
-meta:
-  _edit_last: '27605990'
-  geo_latitude: '51.456338'
-  geo_longitude: "-2.604482"
-  geo_accuracy: '65'
-  geo_address: 11-13 Queen's Rd, Clifton, Bristol, BS8 1QE, UK
-  geo_public: '1'
-  _publicize_pending: '1'
-  reddit: a:2:{s:5:"count";i:0;s:4:"time";i:1515693481;}
-  publicize_twitter_user: moononthebones
-  _wpas_done_987712: '1'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:268408933;b:1;}}
-author:
-  login: moononthebones
-  email: benjamin.moon@bristol.ac.uk
-  display_name: Ben
-  first_name: ''
-  last_name: ''
-permalink: "/2013/01/23/the-ichthyosaurian-roundup-of-last-year/"
+  - Acamptonectes
+  - Argentina
+  - Brachypterygius
+  - cfd
+  - Charmouth
+  - computational fluid dynamics
+  - Cretaceous
+  - Europe
+  - Evolution
+  - fossil
+  - France
+  - genus stenopterygius
+  - Germany
+  - Holzmaden
+  - ichthyosaur
+  - Ichthyosaurus
+  - Jurassic
+  - Leptonectes
+  - Lyme Regis
+  - Maiaspondylus
+  - Mesozoic
+  - Mexico
+  - Museum für Naturkunde
+  - museum hauff
+  - Nannopterygius
+  - nature
+  - North America
+  - Ophthalmosaurus
+  - Outreach
+  - Peterborough
+  - Platypterygius
+  - Posidonia Shale
+  - preservation
+  - Russia
+  - science
+  - South America
+  - southwestern germany
+  - Stenopterygius
+  - taphonomy
+  - Triassic
+  - university of bristol
+  - USA
+  - anatomy
+  - biology
+  - biomechanics
+  - disparity
+  - evolution
+  - extinction
+  - finite element analysis
+  - geology
+  - outreach
+  - palaeontology
+  - phylogeny
+  - taxonomy
+toc: true
 ---
-<p>Twenty-twelve was a big year for ichthyosaurology. For me, it was my first full academic and calendar years as a PhD student at the University of Bristol studying ichthyosaurs. It also marks the 15<sup>th</sup> month of this blog’s existence and this will be the 35<sup>th</sup> post. That averages to more than one each month, which pleases me as there have been many occasions when I didn’t feel that I’ve lived up to my promises. Not that this means that I have.</p>
-<p>So what about now? As this will be one of the first posts of 2013, why not cover some of my, and (mostly) others, work from the past year, as well as my plans for the next. Prepare to be dazzled!</p>
-<h1>Ichthyosaurs in 2012</h1>
-<p>The so-called ‘ichthyosaur renaissance’ is continuing in full swing with many people working on many exciting things. Last year saw new specimens unearthed and described, and at least five new species and three new genera named officially: <i><a title="Wikipedia – Acamptonectes" href="http://en.wikipedia.org/wiki/Acamptonectes" target="_blank">Acamptonectes</a> densus </i>(Fischer <i>et al.</i> 2012), <i><a class="zem_slink" title="Stenopterygius" href="http://en.wikipedia.org/wiki/Stenopterygius" target="_blank" rel="wikipedia">Stenopterygius</a> aaleniensis</i> (Maxwell, Fernández and Schoch 2012), <i><a title="Wikipedia – Temnodontosaurus" href="http://en.wikipedia.org/wiki/Temnodontosaurus" target="_blank">Temnodontosaurus</a> azerguensis</i> (Martin <i>et al.</i> 2012), <i><a title="Wikipedia – Cryopterygius" href="http://en.wikipedia.org/wiki/Cryopterygius" target="_blank">Cryopterygius</a> kristiansenae</i> and <i><a title="Wikipedia – Palvennia" href="http://en.wikipedia.org/wiki/Palvennia" target="_blank">Palvennia</a> hoybergeti</i> (Druckenmiller <i>et al.</i> 2012). From all the research that came out last year, here’s a few pieces on some of the findings.</p>
-<h2><i>Stenopterygius</i> galore</h2>
-<p>January was a bumper month, and great way to start the year. Erin Maxwell (2012<i>a</i>, <i>b</i>) published studies on the genus <i>Stenopterygius</i> from the Lower <a class="zem_slink" title="Jurassic" href="http://en.wikipedia.org/wiki/Jurassic" target="_blank" rel="wikipedia">Jurassic</a> Posidonienschiefer (<a class="zem_slink" title="Posidonia Shale" href="http://en.wikipedia.org/wiki/Posidonia_Shale" target="_blank" rel="wikipedia">Posidonia Shale</a>) of southwestern Germany. <i>Stenopterygius</i> is certainly the most numerous and probably the most completely known ichthyosaur. Huge amounts of material have been found of this genus and now fill collections in the Museum für Naturkunde, Stuttgart, Urwelt-Museum Hauff in Holzmaden and many others besides. Examples can be seen in Heinrich Mallison's recent post from his <a title="Palaeontology of SW Germany 3.1.11: Hauff ichthyosaurs" href="http://dinosaurpalaeo.wordpress.com/2013/01/12/palaeontology-of-sw-germany-3-1-11-hauff-ichthyosaurs/" target="_blank"><i>Palaeontology of SW Germany </i>series</a>. Having such an excellent record lends itself to detailed studies in the biology of <i>Stenopterygius</i>.</p>
-<h3>Species level metrics</h3>
-<p>[caption id="attachment_360" align="alignright" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/maxwell2012_stenopterygius_morphospace.png"><img class="size-medium wp-image-360" alt="Figure 1. Morphospace plot of Stenopterygius from the Posidonienschiefer. This shows the distributions of three species: S. quadriscissus, S. triscissus and S. uniter. Component 1 is related to size and growth. The starred specimens are embryos (to the left) and their mothers (to the right). Circled points are type specimens. (From Maxwell 2012a.)" src="{{ site.baseurl }}/assets/maxwell2012_stenopterygius_morphospace.png?w=300" width="300" height="231" /></a> Figure 1. Morphospace plot of Stenopterygius from the Posidonienschiefer. This shows the distributions of three species: S. quadriscissus, S. triscissus and S. uniter. Component 1 is related to size and growth. The starred specimens are embryos (to the left) and their mothers (to the right). Circled points are type specimens. (From Maxwell 2012a.)[/caption]</p>
-<p>Having so much material available frequently leads to an excess of enthusiasm in naming species, as has happened so often in ichthyosaurs. Maisch (2008) cleaned up the taxonomy of <i>Stenopterygius</i> into three species: <i>S. quadriscissus</i>, <i>S. triscissus</i> and <i>S. uniter</i> along with the erection of <i><a title="Wikipedia – Hauffiopteryx" href="http://en.wikipedia.org/wiki/Hauffiopteryx" target="_blank">Hauffiopteryx</a> typicus</i>. The differences between these species are there, but are often subtle and depend frequently on the preservation – as in so many fossils. Using morphometrics – statistical variation in shape – Maxwell (2012<i>a</i>) showed that each species clearly occupies their own separate morphospace: each species is morphologically different (fig. 1). The area each species occupies on this graph also shows the variation within the species. <i>S. quadriscissus</i> is by far the most common and, as expected, shows the greatest variation, whereas <i>S. triscissus</i> and <i>S. uniter</i> don’t show as much. The effect of growth from juveniles to adults can also be seen: the four stars in the <i>S. quadriscissus</i> space mark two specimens of associated adults and juveniles. The large difference along the <i>x</i>-axis shows that size (mostly body length) dominates this variation, but that other changes (<i>y</i>-axis and other components) change noticeably too.</p>
-<h3><a class="zem_slink" title="Aalenian" href="http://en.wikipedia.org/wiki/Aalenian" target="_blank" rel="wikipedia">Aalenian</a> treat</h3>
-<p>[caption id="attachment_352" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/maxwelletal2012_stenopterygius_aaleniensis.png"><img class="size-medium wp-image-352" alt="Figure 2. Stenopterygius aaleniensis from the Aalenian of southwestern Germany. this shows the unusual preservation where the body is largely seen side-on, but the head and shoulders are face-on. A is the type specimen and B an interpretative drawing. (From Maxwell, Fernández and Schoch 2012.)" src="{{ site.baseurl }}/assets/maxwelletal2012_stenopterygius_aaleniensis.png?w=300" width="300" height="167" /></a> Figure 2. Stenopterygius aaleniensis from the Aalenian of southwestern Germany. this shows the unusual preservation where the body is largely seen side-on, but the head and shoulders are face-on. A is the type specimen and B an interpretative drawing. (From Maxwell, Fernández and Schoch 2012.)[/caption]</p>
-<p>The Middle Jurassic (Aalenian–Callovian; 174–163 Ma) is largely devoid of ichthyosaur fossils worldwide. The Late Callovian <a class="zem_slink" title="Oxford Clay Formation" href="http://en.wikipedia.org/wiki/Oxford_Clay_Formation" target="_blank" rel="wikipedia">Oxford Clay formation</a> is full of <i>Ophthalmosaurus</i> and ichthyosaurs from the Bajocian–Bathonian (170–166 Ma) of South America are known (Fernández 1994, 1999). <i>Stenopterygius aaleniensis</i> (the ‘Aalenian <i>Stenopterygius</i>’) (Maxwell, Fernández and Schoch 2012) is the first conclusive remains from the Aalenian (174–168 Ma), not just of an ichthyosaur, but also of a marine reptile generally (i.e. plesiosaurs, pliosaurs and crocodiles too). This newly described specimen (fig. 2) is found in a similar area to those from the Posidonienschiefer, albeit in higher strata. The three-dimensional specimen has its head stuck out at a completely different angle to the rest of its body, giving a good all-around view; very important in ichthyosaur taxonomy, but made it difficult to incorporate in the two-dimensional morphometric study of the Posidonienschiefer <i>Stenopterygius</i> (Maxwell 2012<i>a</i>).</p>
-<h2><a class="zem_slink" title="Cretaceous" href="http://en.wikipedia.org/wiki/Cretaceous" target="_blank" rel="wikipedia">Cretaceous</a> ichthyosaurs … “the Empire strikes back?”</h2>
-<p>That is the second part of the brilliantly titled article by Zammit (2012) looking at the diversity of ichthyosaurs in the Cretaceous. For a long time, there was only one genus – <i><a class="zem_slink" title="Platypterygius" href="http://en.wikipedia.org/wiki/Platypterygius" target="_blank" rel="wikipedia">Platypterygius</a></i> – to which almost all Cretaceous ichthyosaurs were assigned. <i>Platypterygius</i> currently contains seven or eight species because of this, although more have come and gone in the past. This is no longer the case: <i>Platypterygius</i> still dominates the diversity, and is in need of the same type of revision that <i>Stenopterygius</i> went through recently (Maisch 2008). However, now there are numerous other genera to accompany it.</p>
-<p>This process began relatively recently, with the finding of <i><a title="Wikipedia – Caypullisaurus" href="http://en.wikipedia.org/wiki/Caypullisaurus" target="_blank">Caypullisaurus</a> bonapartei</i> (Fernández 2001, 2007) and more recent reports have increased that with <i><a title="Wikipedia – Maiaspondylus" href="http://en.wikipedia.org/wiki/Maiaspondylus" target="_blank">Maiaspondylus</a> lindoei</i> (Maxwell and Caldwell 2006<i>b</i>), <i><a title="Wikipedia – Athabascasaurus" href="http://en.wikipedia.org/wiki/Athabascasaurus" target="_blank">Athabascasaurus</a> bitumineus</i> (Druckenmiller and Maxwell 2010), <i><a title="Wikipedia – Aegirosaurus" href="http://en.wikipedia.org/wiki/Aegirosaurus" target="_blank">Aegirosaurus</a> leptospondylus?</i> (Fischer <i>et al.</i> 2011<i>a</i>), <i><a title="Wikipedia – Sveltonectes" href="http://en.wikipedia.org/wiki/Sveltonectes" target="_blank">Sveltonectes</a> insolitus</i> (Fischer <i>et al.</i> 2011<i>b</i>) and <i>Acamptonectes densus</i> (Fischer <i>et al.</i> 2012). Along the way material and descriptions of <i>Platypterygius</i> have also been reviewed and revised (e.g. Fernández and Aguirre-Urreta 2005; Maxwell and Caldwell 2006<i>a</i>; Kolb and Sander 2009; Maxwell and Kear 2010; Adams and Fiorillo 2011; Fischer 2011; Pardo-Pérez <i>et al.</i> 2012).</p>
-<p>[caption id="attachment_348" align="alignright" width="224"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/fischeretal2012_ophthalmosaurid_jcb_survival.png"><img class="size-medium wp-image-348" alt="Figure 3. Extinction rates and clade generation rates of ophthalmosaurids (an ichthyosaur subgroup) through the Late Jurassic and Early Cretaceous. The low extinction rates show continuation of taxa across the Jurassic/Cretaceous boundary (orange). In this data there are no new clades (groups) arising after the Late Jurassic. (From Fischer et al. 2012.)" src="{{ site.baseurl }}/assets/fischeretal2012_ophthalmosaurid_jcb_survival.png?w=224" width="224" height="300" /></a> Figure 3. Extinction rates and clade generation rates of ophthalmosaurids (an ichthyosaur subgroup) through the Late Jurassic and Early Cretaceous. The low extinction rates show continuation of taxa across the Jurassic/Cretaceous boundary (orange). In this data there are no new clades (groups) arising after the Late Jurassic. (From Fischer et al. 2012.)[/caption]</p>
-<p>Fischer <i>et al.</i> (2012) discussed the effect of this more recently realised diversity. Their elegantly simple graphs (fig. 3) show that there is low to no extinction in ichthyosaur species over the Jurassic–Cretaceous boundary (145 Ma). It’s also apparent that no new clades arose following the Kimmeridgian/Tithonian either. This implies one or two scenarios:</p>
-<ul>
-<li>Late Jurassic and Cretaceous ichthyosaur lineages had extremely long lifespans.</li>
-<li>The lineage and diversity data is incomplete, either due to incorrect assignment of species (lumping many together) or through incomplete sampling (no one’s bothered to look for any).</li>
-</ul>
-<p>The latter of these is mentioned in the body text (Fischer <i>et al.</i> 2012, p. 22), with particular reference to the ‘wastebasket’ nature of <i>Platypterygius</i> and the poor rock record of the earliest Cretaceous. However, the conclusion remains: ichthyosaurs show stability in their diversity over the Jurassic–Cretaceous boundary and through the earliest Cretaceous. The age-old question of why they became extinct towards the end of the Cenomanian (94 Ma) stands.</p>
-<h2>A few new specimens</h2>
-<p>Along with <i>Stenopterygius aaleniensis</i> mentioned above, a few more ichthyosaurs took their turn in the spotlight. These add to our knowledge about the occurrences and biology these groups and the ecology they belonged to.</p>
-<h3>Lower Jurassic</h3>
-<p>[caption id="attachment_346" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/bennettetal2012_new_ichthyosaurus.png"><img class="size-medium wp-image-346" alt="Figure 4. A new specimen of Ichthyosaurus communis from the Pliensbachian of Charmouth. this is the youngest I. communis known and also shows gut contents. (From Bennett et al. 2012.)" src="{{ site.baseurl }}/assets/bennettetal2012_new_ichthyosaurus.png?w=300" width="300" height="120" /></a> Figure 4. A new specimen of Ichthyosaurus communis from the Pliensbachian of Charmouth. this is the youngest I. communis known and also shows gut contents. (From Bennett et al. 2012.)[/caption]</p>
-<p><i><a class="zem_slink" title="Ichthyosaurus" href="http://en.wikipedia.org/wiki/Ichthyosaurus" target="_blank" rel="wikipedia">Ichthyosaurus communis</a></i> finds are common along the coast between Lyme Regis and Charmouth (Dorset, UK); at least common for ichthyosaur finds. The preservation of the material can be spectacular – close to that seen in the Posidonienschiefer – but all too often it falls short. A specimen described by Bennett <i>et al.</i> (2012) does look a bit of a mess (fig. 4), but it’s still an informative mess! This specimen contains enough detail to be assigned to <i>I. communis</i>, making this the youngest definite example of that taxon. It was found in Pliensbachian age (191–183 Ma) rocks, whereas <i>I. communis</i> was previously known only from the Rhaetian–Sinemurian ages (208–191 Ma). There are also a number of fish remains preserved in the gullet region giving a glimpse of this ichthyosaur’s lifestyle.</p>
-<p>[caption id="attachment_350" align="alignright" width="208"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/martinetal2012_temnodontosaurus_azerguensis.png"><img class="size-medium wp-image-350" alt="Figure 5. Temnodontosaurus azerguensis from the Toarcian of France. This large ichthyosaur is odd as there are no teeth associated with it, other Temnodontosaurus are well known for having big teeth. (From Martin et al. 2012.)" src="{{ site.baseurl }}/assets/martinetal2012_temnodontosaurus_azerguensis.png?w=208" width="208" height="300" /></a> Figure 5. Temnodontosaurus azerguensis from the Toarcian of France. This large ichthyosaur is odd as there are no teeth associated with it, other Temnodontosaurus are well known for having big teeth. (From Martin et al. 2012.)[/caption]</p>
-<p>The new species <i>Temnodontosaurus azerguensis </i>was named based on material from the Toarcian (183–174 Ma) of France (Martin <i>et al.</i> 2012). Again, this is another impressive specimen, for its preservation and its size, at the best part of 8 m long (fig. 5). The Toarcian is the age in which the Posidonienschiefer was deposited, making this specimen about, but slightly younger than the – three of the four – <i>Stenopterygius</i> discussed above. As <i>Temnodontosaurus</i> go, <i>T. azerguensis</i> is weird – which seems to be the fad for new ichthyosaurs nowadays: weird is good. There were no teeth found with the specimen and the snout is long and thin and with reduced dental grooves. This compares with the “large size … and massive dentition” (Martin <i>et al.</i> 2012, p. 1002) usually associated with <i>Temnodontosaurus</i>. Being from later in the Toarcian also means this ichthyosaur is from after the Toarcian Oceanic Anoxic Event. This ‘stagnation’ of the ocean occurs as oxygen levels in the ocean fall; fish and invertebrates then die and there is a bloom in decay bacteria, which then causes a further reduction in oxygen levels. An event like this leaves its trace in black, organic-rich strata, like the Posidonienschiefer. Few ichthyosaur remains are known from this time; whether this new species marks a post-event radiation cannot be determined.</p>
-<p>[caption id="attachment_349" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/lomaxmassare2012_leptonectes_embryo.png"><img class="size-medium wp-image-349" alt="Figure 6. An embryo of Leptonectes from Somerset. Young are often identifiable by their large eyes. Several of the embryo’s bones are scattered, and there are vertebrae from the associated adult too. (From Lomax and Massare 2012.)" src="{{ site.baseurl }}/assets/lomaxmassare2012_leptonectes_embryo.png?w=300" width="300" height="224" /></a> Figure 6. An embryo of Leptonectes from Somerset. Young are often identifiable by their large eyes. Several of the embryo’s bones are scattered, and there are vertebrae from the associated adult too. (From Lomax and Massare 2012.)[/caption]</p>
-<p>[caption id="attachment_355" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/organetal2012_stenopterygius_quadriscissus_birth.png"><img class="size-medium wp-image-355 " alt="Figure 7. A famous Stenopterygius specimen. This is usually interpreted as an adult with a juvenile in the process of being birthed: ichthyosaurs gave birth to live young, as with modern mammals. It is this, among other things, that likely allowed them to become so highly adapted to their marine lifestye. (From Organ et al. 2009.)" src="{{ site.baseurl }}/assets/organetal2012_stenopterygius_quadriscissus_birth.png?w=300" width="300" height="96" /></a> Figure 7. A famous Stenopterygius specimen. This is usually interpreted as an adult with a juvenile in the process of being birthed: ichthyosaurs gave birth to live young, as with modern mammals. It is this, among other things, that likely allowed them to become so highly adapted to their marine lifestye. (From Organ et al. 2009.)[/caption]</p>
-<p>While it may not be a new species, coverage of a <a title="Wikipedia – Leptonectes" href="http://en.wikipedia.org/wiki/Leptonectes" target="_blank"><i>Leptonectes</i></a> with associated embryos is still exciting (Lomax and Massare 2012) (fig. 6). This was much closer to (my) home, being found only in Street (Somerset, UK), however the specimen is housed in the Sedgwick Museum, Cambridge; a little further a travel. Embryos have been known in ichthyosaurs for a long time (see this famous <i>Stenopterygius </i>(fig. 7)), but this is the first occurrence in <i>Leptonectes</i>.</p>
-<h3>Upper Jurassic</h3>
-<p>The Upper Jurassic had a boost in attention towards the end of this year. I’ve covered the discovery of <i>Cryopterygius kristiansenae</i> and <i>Palvennia hoybergeti</i> in a post last year (Druckenmiller <i>et al.</i> 2012; ‘In the land of Svalbard…’). Also published was a description of some new material of <i>Arthropterygius</i> sp. from Argentina. Curiously, <a title="Wikipedia – Arthropterygius" href="http://en.wikipedia.org/wiki/Arthropterygius" target="_blank"><i>Arthropterygius</i></a> was only previously known from Canada (Maxwell 2010) – several thousand miles away today, and not much less in the Jurassic. As shocking as this may seem, it isn’t unheard of: examples of <a title="Wikipedia – Ophthalmosaurus" href="http://en.wikipedia.org/wiki/Ophthalmosaurus" target="_blank"><i>Ophthalmosaurus</i></a> are known the (western) world over; from England (Seeley 1874; Kirton 1983), Mexico (Buchy 2010) and Argentina (as <i>Ancanamunia</i>; Rusconi 1948; Kirton 1983; Fernández and Maxwell 2012). Modern <a title="Wikipedia – Grey Whale" href="http://en.wikipedia.org/wiki/Gray_whale" target="_blank">Grey Whales</a> also travel great distances – from their tropical birthing grounds towards the Arctic for feeding.</p>
-<h3>Palaeobiology</h3>
-<p>[caption id="attachment_358" align="alignright" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/rothschildatal2012_decompression_leptonectes.png"><img class="size-medium wp-image-358" alt="Figure 8. The effects of ‘the bends’ can be seen in the bones of this Leptonectes tenuirostris. The bone cells are killed, and the stricture weakened, which causes failure when the bone is loaded. the shaft of the arrow is 40 mm. (From Rothschild, Xiaoting and Martin 2012.)" src="{{ site.baseurl }}/assets/rothschildatal2012_decompression_leptonectes.png?w=300" width="300" height="229" /></a> Figure 8. The effects of ‘the bends’ can be seen in the bones of this Leptonectes tenuirostris. The bone cells are killed, and the stricture weakened, which causes failure when the bone is loaded. the shaft of the arrow is 40 mm. (From Rothschild, Xiaoting and Martin 2012.)[/caption]</p>
-<p>Besides naming new ichthyosaurs, a few papers discussed the palaeobiology of these animals both during life and after death. Rothschild, Xiaoting and Martin (2012) looked at <a title="Wikipedia – Decompression sickness" href="http://en.wikipedia.org/wiki/Decompression_sickness" target="_blank">decompression syndrome</a> (‘the bends’) in ichthyosaurs from the Triassic in comparison to post-Triassic. Evidence for the bends can be seen in the state of the bones of ichthyosaurs: build-up of nitrogen in the bones blocking blood vessels and killing cells causes deformities (fig. 8). The findings show that Triassic ichthyosaurs – along with <i>Stenopterygius</i> – apparently lived a more sedate life than most of their Jurassic and Cretaceous relatives (see Rothschild, Xiaoting and Martin 2012, tbl. 1). The authors suggest several reasons for this increase in the bends in later ichthyosaurs:</p>
-<ul>
-<li>Later ichthyosaurs, particularly the thunniform (tuna-shaped) group are more adapted to deep-diving so will be more affected by repeated decompression as they surface to breath (Motani, Rothschild and Wahl 1999).</li>
-<li>Triassic ichthyosaurs dominated the top tiers of the food web whereas Jurassic and Cretaceous ichthyosaurs faced more predation from sharks, pliosaurs and marine crocodiles (Fröbisch <i>et al.</i> 2013).</li>
-<li>Fast-swimming teleost fish evolved in the Late Jurassic and Early Cretaceous, which may have caused more accidental decompression in hunting. This may be associated with a more endothermic (‘warm-blooded’) metabolism (Bernard <i>et al.</i> 2010).</li>
-</ul>
-<p>Incidentally, it was this article, along with its comments and replies (Hayman 2012; Rothschild 2012) that led to John Tennant at <a title="Green Tea and Velociraptors – Time to write a letter" href="http://fossilsandshit.wordpress.com/2012/07/31/deep-diving-dinosaurs-time-to-write-a-letter/" target="_blank"><i>Green Tea and Velociraptors</i></a> to write a letter.</p>
-<p>Nakajima, Houssaye and Endo (2012, accepted and published online) gave more insights on early ichthyosaur biology. This study on <i><a title="Wikipedia – Utatsusaurus" href="http://en.wikipedia.org/wiki/Utatsusaurus" target="_blank">Utatsusaurus</a> hataii</i> – one of the earliest and most basal ichthyopterygians – looked at the bone structure in the ribs and humeri of two specimens. The results suggest rapid growth and possibly raised metabolic rates: early in their evolution – and so soon after the Permo-Triassic extinction event (within 6–8 Ma) – these ichthyosaurs were already developing the characters that made them successful for 160 Ma. That <i>Utatsusaurus</i> had paddles and a long, finned tail was already known. The high growth and metabolic rates, along with spongy inner bone structure, hints at a pelagic (open ocean) lifestyle and palaeoecology.</p>
-<p>[caption id="attachment_357" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/reisdorfetal2012_stenopterygius_exploded.png"><img class="size-medium wp-image-357" alt="Figure 9. The scattered remains of a Stenopterygius from the Posidonienschiefer. Specimens with the bones spread like this are not uncommon. The diffuse substrate and even low-velocity currents are the likely cause of this preservation. (From Reisdorf et al. 2012.)" src="{{ site.baseurl }}/assets/reisdorfetal2012_stenopterygius_exploded.png?w=300" width="300" height="162" /></a> Figure 9. The scattered remains of a Stenopterygius from the Posidonienschiefer. Specimens with the bones spread like this are not uncommon. The diffuse substrate and even low-velocity currents are the likely cause of this preservation. (From Reisdorf et al. 2012.)[/caption]</p>
-<p>To conclude the past year in ichthyosaur research, a look at their taphonomy. This takes us back, as has happened so often this year, to the Posidonienschiefer and exploding carcasses (Reisdorf <i>et al.</i> 2012). In recent years, the phenomenon of exploding whale carcasses has gained several hits, particularly from <i>Inside Natures’ Giants </i>and on YouTube (vid. 1). These incidences have led to the postulation that some of the scattered ichthyosaur remains found could be due to this cause (e.g. Böttcher 1989; Martill 1993; fig. 9). Explosions of carcasses in modern whales tends only to happen when there’s something around to disturb the carcass – frequently a person with a harpoon (vid. 1, fig. 10).</p>
-<p>[caption id="attachment_356" align="alignright" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/reidorfetal2012_exploding_whale_stills.png"><img class="size-medium wp-image-356" alt="Figure 10. Stills from the above video showing the effect of sticking a pointed stick into a bloated whale. (From Reisdorf et al. 2012.)" src="{{ site.baseurl }}/assets/reidorfetal2012_exploding_whale_stills.png?w=300" width="300" height="152" /></a> Figure 10. Stills from the above video showing the effect of sticking a pointed stick into a bloated whale. (From Reisdorf et al. 2012.)[/caption]</p>
-<p>The carcass itself will tend to sink and – in deep enough water – the pressure will prevent explosion. The alternative mechanism Reisdorf <i>et al.</i> (2012) suggest is the sediments and currents. Slight currents would have been free to move the bones around in the nebulous ‘soupy substrates’ that made up the seabed (Martill 1993). Velocities of only 0.2–0.4 m/s (&lt;1 mph; a very slow walking pace) would’ve be enough to move around the flank and belly ribs and the paddle bones causing such preservation.</p>
-<p><i>[youtube=http://www.youtube.com/watch?v=_naTZWCpj-8]</i></p>
-<p>Conclusions</p>
-<p>This concludes my brief (really?) look at the published ichthyosaur research from 2012, but has not been comprehensive for the amount of research, or the summaries themselves. Twenty-thirteen has already seen ichthyosaur articles published (e.g. Fröbisch <i>et al.</i> 2013; Maxwell and Dececchi 2013), preview manuscripts (e.g. Nakajima, Houssaye and Endo 2012) and more that are currently in preparation.</p>
-<h1>I know what I did last year</h1>
-<p>From other peoples’ work to what I’ve been doing. As I began with, 2012 was my first full (calendar) year in my PhD and a year later I feel I’ve made progress: I’m almost getting to the results stage! My original plans (<a title="My PhD plans: Part 1: a new ichthyosaur" href="http://ichthyosaurs.wordpress.com/2011/12/07/my-phd-plans-part-1-a-new-ichthyosaur/" target="_blank">here</a>, <a title="My PhD: Part 2: the ichthyosaurs strike back" href="http://ichthyosaurs.wordpress.com/2011/12/13/my-phd-part-2-the-ichthyosaurs-strike-back/" target="_blank">here</a> and <a title="My PhD: Part 3: the return of the ichthyosaurs" href="http://ichthyosaurs.wordpress.com/2012/01/05/my-phd-part-3-the-return-of-the-ichthyosaurs/" target="_blank">here</a>) have changed somewhat due to feasibility, time and material constraints, but the gist remains the same.</p>
-<h2>Taxonomy</h2>
-<p>The largest part of this year has been taken up with describing those ichthyosaurs from the Middle and Upper Jurassic. Fortunately, I was awarded several grants from the <a title="Palaeontographical Society homepage" href="http://www.palaeosoc.org/site/home/" target="_blank">Palaeontographical Society</a>, the <a title="Geological Society homepage" href="http://www.geolsoc.org.uk" target="_blank">Geological Society of London</a>, the <a title="Systematics Association homepage" href="http://www.systass.org" target="_blank">Systematics Association</a> and the <a title="Bob Savage Memorial Fund" href="http://palaeo.gly.bris.ac.uk/opportunities-savage.html" target="_blank">Bob Savage Memorial Fund</a>. This money was spent between August and today on visits to various museums. My visit to Leicester received its own post, but I also went to the Hunterian Museum, Glasgow, Sedgwick Museum, Cambridge, University Museum of Natural History, Oxford and the Natural History Museum, London. I still have to visit Peterborough Museum in the coming weeks.</p>
-<p>[caption id="attachment_354" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/nhm_ophthalmosaurus.png"><img class="size-medium wp-image-354" alt="Figure 11. Ophthalmosaurus icenicus in the main hall at the Natural History Museum, London. This specimen is about 5 m long." src="{{ site.baseurl }}/assets/nhm_ophthalmosaurus.png?w=300" width="300" height="225" /></a> Figure 11. Ophthalmosaurus icenicus in the main hall at the Natural History Museum, London. This specimen is about 5 m long.[/caption]</p>
-<p>All this travelling was, for the most part, in search of as much of the material of <i>Ophthalmosaurus</i> from the Leeds Collections that I could find. I’ve only mentioned these collections briefly and they deserve to have more detail on them: one of my tasks for this year. All this travelling led me to over 300 specimens referred to <i>Ophthalmosaurus</i>, covering every (known) bone in its body (fig. 11).</p>
-<p>[caption id="attachment_347" align="alignright" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/camsm_grendelius.png"><img class="size-medium wp-image-347" alt="Figure 12. ‘Grendelius’ mordax on display in the Sedgwick Museum, Cambridge. the lower jaw is about 1.2 m long." src="{{ site.baseurl }}/assets/camsm_grendelius.png?w=300" width="300" height="225" /></a> Figure 12. ‘Grendelius’ mordax on display in the Sedgwick Museum, Cambridge. the lower jaw is about 1.2 m long.[/caption]</p>
-<p>In some select places, particularly the Natural History and Sedgwick museums, there were those more elusive treats <a title="Wikipedia – Brachypterygius" href="http://en.wikipedia.org/wiki/Brachypterygius" target="_blank"><i>Brachypterygius</i></a> and <a title="Wikipedia – Nannopterygius" href="http://en.wikipedia.org/wiki/Nannopterygius" target="_blank"><i>Nannopterygius</i></a>. In Cambridge, I came across the giant skull originally named <i>Grendelius</i> (fig.) and London has the difficult to see skeleton of <i>Nannopterygius</i> (fig.) This last is still causing me access problems due to its position (~6 m up on a wall), but this should hopefully be resolved later this year.</p>
-<p>[caption id="attachment_353" align="alignleft" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/nhm_nannopterygius.png"><img class="size-medium wp-image-353" alt="Figure 13. Nannopterygius enthekiodon, the best photo I could in the Natural History Museum, London. The specimen is about 3 m long." src="{{ site.baseurl }}/assets/nhm_nannopterygius.png?w=300" width="300" height="225" /></a> Figure 13. Nannopterygius enthekiodon, the best photo I could in the Natural History Museum, London. The specimen is about 3 m long.[/caption]</p>
-<p>The descriptions of these three ichthyosaurs are largely complete in draft form. The basis was taken from Kirton (1983), as I’ve mentioned before, and I’ve checked and added much to it. Much that now needs to be done revolves around editing this into a manuscript, and writing the introductory and discussion sections.</p>
-<h2>Phylogeny</h2>
-<p>When I haven’t been doing stuff with ichthyosaurs descriptions, I’ve been working on their relationships. This is continuing as originally planned, and I now have a set of characters and the first stages of a matrix, which is progressing well. The collection, comparing and construction of this has been time consuming because it requires detailed qualitative understanding of the ichthyosaurs themselves (all 101 species, and counting) and the characters themselves. Because the characters I’ve collected are derived from several sources, their purposes and nature can be very different. These wrinkles have to be resolved before any analysis can take place; this is where I am now.</p>
-<h2>Other odd jobs</h2>
-<p>Much of the studies that I wrote about in ‘<a title="My PhD: Part 3: the return of the ichthyosaurs" href="http://ichthyosaurs.wordpress.com/2012/01/05/my-phd-part-3-the-return-of-the-ichthyosaurs/" target="_blank">My PhD: Part 3</a>’ require a complete, robust phylogeny; hence have not been properly started yet. It is also here that some of the greatest changes have happened. I had hoped to use some three-dimensionally preserved ichthyosaur skulls (e.g. those from Caine and Benton 2011), CT scanned, as the basis for a finite element analysis of their jaw mechanics. Unfortunately, due to the complexity of the skulls (50+ elements), the problems of modelling sutures (where these elements meet) and it taking a long time to build these models, it doesn’t seem feasible to do this (yet).</p>
-<p>[caption id="attachment_359" align="alignright" width="300"]<a href="http://ichthyosaurs.files.wordpress.com/2013/01/temnodontosaurus_cfd.png"><img class="size-medium wp-image-359" alt="Figure 14. Preliminary fluid dynamics testing. The silhouette is of Temnodontosaurus from Motani (2005)." src="{{ site.baseurl }}/assets/temnodontosaurus_cfd.png?w=300" width="300" height="300" /></a> Figure 14. Preliminary fluid dynamics testing. The silhouette is of Temnodontosaurus from Motani (2005).[/caption]</p>
-<p>Instead, following the suggestion of one of my supervisors, Emily Rayfield, I’ve been looking at the related modelling of fluids (<a title="Wikipedia – Computational fluid dynamics" href="http://en.wikipedia.org/wiki/Computational_fluid_dynamics" target="_blank">computational fluid dynamics</a>). The idea with this will be to use two-dimensional body silhouettes to look at the efficiency of ichthyosaurs’ motion through the water. This is very much in the designing/planning/guessing stage. I’ve run some preliminary simulations (fig. 14) just to look at how, and if, the model works. Next will be to compare with flume experiments (e.g. Ferry and Lauder 1996) to make the results are realistic. Eventually this can be combined with the phylogeny to see if there are any trends through ichthyosaur evolution.</p>
-<h2>Everything else</h2>
-<p>Outside of my research, 2012 offered the chance to go to several meetings:</p>
-<ul>
-<li><a title="Geological Society – Lyell Meeting 2012" href="https://www.geolsoc.org.uk/en/Events/Past%20Meeting%20Resources/Big%20Palaeontology%20-%20Lyell%20Meeting%202012" target="_blank"><i>Big Palaeontology</i></a> was this year’s Lyell Meeting at the Geological Society (29 March), featuring talks on topics ranging from specimen databases and virtual palaeontology through to fossil code and palaeontology of the Jurassic Coast World Heritage Site.</li>
-<li>The <a title="SVPCA homepage" href="http://www.svpca.org" target="_blank"><i>Symposium of Vertebrate Palaeontology and Comparative Anatomy</i></a> was held in Oxford (10–15 September), but unfortunately I could only spend a day there.</li>
-</ul>
-<p>Besides meetings, I also gave a few talks (sorry, these were on my research):</p>
-<ul>
-<li>29 November: <i>Large-scale evolutionary trends in ichthyosaurs</i>, departmental presentation; extended for the <a title="WEGA homepage" href="http://www.wega.org.uk" target="_blank">West of England Geologists' Association</a> on 15 January 2013.</li>
-</ul>
-<h1>Full ahead Cap’n</h1>
-<p>So what does the year ahead hold for me? Currently I’ve spent the best part of the last month not writing this blog post, and the last two days writing all 3000+ words of it, which has been good for affirming my ability to write (the amount of editing and making images notwithstanding). As last year had much work on the descriptions of <i>Ophthalmosaurus</i>, <i>Brachypterygius</i> and <i>Nannopterygius</i>, this month I’ve largely put that aside, until after visiting Peterborough. On the other hand, I am in the process of writing a proposal for a <i>Society of Vertebrate Paleontology Memoir</i> I’ve looked at many places to publish, with the criteria of quality, circulation and accessibility (not in that order). PLOS ONE looked promising (thanks to Darren Naish for the suggestion), but unfortunately they just won’t accept monographs (large, complete bodies of work, which this will be). The SVP memoir series offered the best mix of these three criteria; should it be accepted, it will come out in 2014.</p>
-<p>I have however picked up on creation the character list and matrix for my phylogeny, looking to complete this within ~two months. So many other things will be born from this and take up so much of the rest of my year – a flurry of projects, as I like to think of it.</p>
-<p>With all this work going on and (hopefully) being completed, 2013 is looking like a busy and rewarding year. I am expecting to have my first peer-reviewed publications, first conferences talk(s) and poster(s) and be largely on the way to completing my PhD.</p>
-<p>Three years? I can do it in that!</p>
-<p>Roll on 2013.</p>
-<h1>References</h1>
-<p><a title="Adams and Fiorillo 2011" href="http://palaeo-electronica.org/2011_3/1_adams/index.html" target="_blank">ADAMS, T. L. and FIORILLO, A. R. 2011. <i>Platypterygius</i> Huene, 1922 (Ichthyosauria, Ophthalmosauridae) from the Late Cretaceous of Texas, USA. <i>Palaeontologia Electronica</i>, <b>14</b>, 19A:12 p.</a> 🔓</p>
-<p><a title="Bennett et al 2012" href="http://dx.doi.org/10.1016/j.pgeola.2011.07.001" target="_blank">BENNETT, S. P., BARRETT, P. M., COLLINSON, M. E., MOORE-FAY, S., DAVIS, P. G. and PALMER, C. P. 2012. A new specimen of <i>Ichthyosaurus communis</i> from Dorset, UK, and its bearing on the stratigraphical range of the species. <i>Proceedings of the Geologists' Association</i>, <b>123</b>, 146–154.</a></p>
-<p><a title="Bernard et al 2010" href="http://www.sciencemag.org/cgi/doi/10.1126/science.1187443" target="_blank">BERNARD, A., LECUYER, C., VINCENT, P., AMIOT, R., BARDET, N., BUFFETAUT, E., CUNY, G., FOUREL, F., MARTINEAU, F., MAZIN, J.-M. and PRIEUR, A. 2010. Regulation of body temperature by some Mesozoic marine reptiles. <i>Science</i>, 328, 1379–1382.</a></p>
-<p><a title="Böttcher 1989" href="http://www.archive.org/details/stuttgarterbeitr1551989staa" target="_blank">BÖTTCHER, R. 1989. Über die Nahrung eines <i>Leptopterygius</i> (Ichthyosauria, Reptilia) aus dem süddeutschen Posidonienschiefer (Unterer Jura) mit Bemerkungen über den Magen der Ichthyosaurier. <i>Stuttgarter Beiträge zur Naturkunde, Serie B (Geologie und Paläontologie)</i>, 155, 1–19. [In German.] </a>🔓</p>
-<p><a title="Buchy 2010" href="http://links.isiglobalnet2.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=mekentosj&amp;SrcApp=Papers&amp;DestLinkType=FullRecord&amp;DestApp=WOS&amp;KeyUT=000273752700014" target="_blank">BUCHY, M.-C. 2010. First record of <i>Ophthalmosaurus</i> (Reptilia: Ichthyosauria) from the Tithonian (Upper Jurassic) of Mexico. <i>Journal of Paleontology</i>, <b>84</b>, 149–155.</a></p>
-<p><a title="Caine and Benton 2011" href="http://onlinelibrary.wiley.com/doi/10.1111/j.1475-4983.2011.01093.x/abstract" target="_blank">CAINE, H. and BENTON, M. J. 2011. Ichthyosauria from the Upper Lias of Strawberry Bank, England. <i>Palaeontology</i>, <b>54</b>, 1069–1093.</a></p>
-<p><a title="Druckenmiller and Maxwel 2010" href="http://www.nrcresearchpress.com/doi/abs/10.1139/E10-028" target="_blank">DRUCKENMILLER, P. S. and MAXWELL, E. E. 2010. A new Lower Cretaceous (lower Albian) ichthyosaur genus from the Clearwater Formation, Alberta, Canada. <i>Canadian Journal of Earth Sciences</i>, <b>47</b>, 1037–1053.</a></p>
-<p><a title="Druckenmiller et al 2012" href="http://www.geologi.no/data/f/0/21/00/9_2401_0/NJG_2_3_2012_17_Druckenmiller_etal_Pr.pdf" target="_blank">—— HURUM, J. H., KNUTSEN, E. M. and NAKREM, H. A. 2012. Two new ophthalmosaurids (Reptilia: Ichthyosauria) from the Agardhfjellet Formation (Upper Jurassic: Volgian/Tithonian), Svalbard, Norway. <i>Norwegian Journal of Geology</i>, <b>92</b>, 311–339.</a> 🔓</p>
-<p><a title="Fernández 1994" href="http://books.google.com/books?hl=en&amp;lr=&amp;id=Xeo9pTkWJHsC&amp;oi=fnd&amp;pg=PA291&amp;dq=fernandez+(ichthyosaur)&amp;ots=3w1-FIiUfu&amp;sig=gVuGohWXUENI3YncHq4wmoicntA" target="_blank">FERNÁNDEZ, M. S. 1994. A new long-snouted ichthyosaur from the Early Bajocian of Neuquen Basin (Argentina). <i>Ameghiniana</i>, <b>31</b>, 291–297.</a> 🔓</p>
-<p><a title="Fernández 1999" href="http://jpaleontol.geoscienceworld.org/cgi/content/abstract/73/4/677" target="_blank">—— 1999. A new ichthyosaur from the Los Molles Formation (Early Bajocian), Neuquen Basin, Argentina. <i>Journal of Paleontology</i>, <b>73</b>, 677–681.</a></p>
-<p><a title="Fernández 2001" href="http://www.tandfonline.com/doi/abs/10.1671/0272-4634(2001)021%5B0515%3ADOVHOT%5D2.0.CO%3B2" target="_blank">—— 2001. Dorsal or ventral? Homologies of the forefin of <i>Caypullisaurus</i> (Ichthyosauria: Ophthalmosauria). <i>Journal of Vertebrate Paleontology</i>, <b>21</b>, 515–520.</a></p>
+Twenty-twelve was a big year for ichthyosaurology. For me, it was my first full
+academic and calendar years as a PhD student at the University of Bristol
+studying ichthyosaurs. It also marks the 15^th^ month of this blog’s existence
+and this will be the 35^th^ post. That averages to more than one each month,
+which pleases me as there have been many occasions when I didn’t feel that I’ve
+lived up to my promises. Not that this means that I have.
+
+So what about now? As this will be one of the first posts of 2013, why not
+cover some of my, and (mostly) others, work from the past year, as well as my
+plans for the next. Prepare to be dazzled!
+
+## Ichthyosaurs in 2012
+
+The so-called ‘ichthyosaur renaissance’ is continuing in full swing with many
+people working on many exciting things. Last year saw new specimens unearthed
+and described, and at least five new species and three new genera named
+officially: [_Acamptonectes
+densus_](http://en.wikipedia.org/wiki/Acamptonectes) (Fischer et al. 2012),
+[_Stenopterygius aaleniensis_](http://en.wikipedia.org/wiki/Stenopterygius)
+(Maxwell, Fernández and Schoch 2012), [_Temnodontosaurus
+azerguensis_](http://en.wikipedia.org/wiki/Temnodontosaurus) (Martin et al.
+2012), [_Cryopterygius
+kristiansenae_](http://en.wikipedia.org/wiki/Cryopterygius) and [_Palvennia
+hoybergeti_](http://en.wikipedia.org/wiki/Palvennia) (Druckenmiller et al.
+2012). From all the research that came out last year, here’s a few pieces on
+some of the findings.
+
+### _Stenopterygius_ galore
+
+January was a bumper month, and great way to start the year. Erin Maxwell
+(2012a, b) published studies on the genus _Stenopterygius_ from the Lower
+[Jurassic](http://en.wikipedia.org/wiki/Jurassic) Posidonienschiefer
+([Posidonia Shale](http://en.wikipedia.org/wiki/Posidonia_Shale)) of
+southwestern Germany. _Stenopterygius_ is certainly the most numerous and
+probably the most completely known ichthyosaur. Huge amounts of material have
+been found of this genus and now fill collections in the Museum für Naturkunde,
+Stuttgart, Urwelt-Museum Hauff in Holzmaden and many others besides. Examples
+can be seen in Heinrich Mallison's recent post from his [Palaeontology of SW
+Germany](http://dinosaurpalaeo.wordpress.com/2013/01/12/palaeontology-of-sw-germany-3-1-11-hauff-ichthyosaurs/)
+series. Having such an excellent record lends itself to detailed studies in the
+biology of _Stenopterygius_.
+
+#### Species level metrics
+
+{% include figure
+image_path="/assets/images/maxwell2012_stenopterygius_morphospace.png"
+alt="Morphospace of Stenopterygius" caption="Figure 1. Morphospace plot of
+Stenopterygius from the Posidonienschiefer. This shows the distributions of
+three species: S. quadriscissus, S. triscissus and S. uniter. Component 1 is
+related to size and growth. The starred specimens are embryos (to the left) and
+their mothers (to the right). Circled points are type specimens. (From Maxwell
+2012a.)" %}
+
+Having so much material available frequently leads to an excess of enthusiasm
+in naming species, as has happened so often in ichthyosaurs. Maisch (2008)
+cleaned up the taxonomy of _Stenopterygius_ into three species:
+_S. quadriscissus>, _S. triscissus_ and _S. uniter_ along with the erection of
+[_Hauffiopteryx typicus_](http://en.wikipedia.org/wiki/Hauffiopteryx). The
+differences between these species are there, but are often subtle and depend
+frequently on the preservation – as in so many fossils. Using morphometrics
+– statistical variation in shape – Maxwell (2012a) showed that each species
+clearly occupies their own separate morphospace: each species is
+morphologically different (fig. 1). The area each species occupies on this
+graph also shows the variation within the species. _S. quadriscissus_ is by far
+the most common and, as expected, shows the greatest variation, whereas
+_S. triscissus_ and _S. uniter_ don’t show as much. The effect of growth from
+juveniles to adults can also be seen: the four stars in the _S. quadriscissus_
+space mark two specimens of associated adults and juveniles. The large
+difference along the _x_-axis shows that size (mostly body length) dominates
+this variation, but that other changes (_y_-axis and other components) change
+noticeably too.
+
+#### [Aalenian](http://en.wikipedia.org/wiki/Aalenian) treat
+
+{% include figure image_path="/assets/images/maxwelletal2012_stenopterygius_aaleniensis.png" alt="Stenopterygius aaleniensis" caption="Figure 2. _Stenopterygius aaleniensis_ from the Aalenian of southwestern Germany. this shows the unusual preservation where the body is largely seen side-on, but the head and shoulders are face-on. A is the type specimen and B an interpretative drawing. (From Maxwell, Fernández and Schoch 2012.)" %}
+
+The Middle Jurassic (Aalenian–Callovian; 174–163 Ma) is largely devoid of
+ichthyosaur fossils worldwide. The Late Callovian [Oxford Clay
+Formation](http://en.wikipedia.org/wiki/Oxford_Clay_Formation) is full of
+_Ophthalmosaurus_ and ichthyosaurs from the Bajocian–Bathonian (170–166 Ma) of
+South America are known (Fernández 1994, 1999). _Stenopterygius aaleniensis_
+(the ‘Aalenian _Stenopterygius_ ’) (Maxwell, Fernández and Schoch 2012) is the
+first conclusive remains from the Aalenian (174–168 Ma), not just of an
+ichthyosaur, but also of a marine reptile generally (i.e. plesiosaurs,
+pliosaurs and crocodiles too). This newly described specimen (fig. 2) is found
+in a similar area to those from the Posidonienschiefer, albeit in higher
+strata. The three-dimensional specimen has its head stuck out at a completely
+different angle to the rest of its body, giving a good all-around view; very
+important in ichthyosaur taxonomy, but made it difficult to incorporate in the
+two-dimensional morphometric study of the Posidonienschiefer _Stenopterygius_
+(Maxwell 2012a).
+
+### [Cretaceous](http://en.wikipedia.org/wiki/Cretaceous) ichthyosaurs … “the
+Empire strikes back?”
+
+That is the second part of the brilliantly titled article by Zammit (2012)
+looking at the diversity of ichthyosaurs in the Cretaceous. For a long time,
+there was only one genus
+– [_Platypterygius_](http://en.wikipedia.org/wiki/Platypterygius) – to which
+almost all Cretaceous ichthyosaurs were assigned. _Platypterygius_ currently
+contains seven or eight species because of this, although more have come and
+gone in the past. This is no longer the case: _Platypterygius_ still dominates
+the diversity, and is in need of the same type of revision that
+_Stenopterygius_ went through recently (Maisch 2008). However, now there are
+numerous other genera to accompany it.
+
+This process began relatively recently, with the finding of [_Caypullisaurus
+bonapartei_](http://en.wikipedia.org/wiki/Caypullisaurus) (Fernández 2001,
+2007) and more recent reports have increased that with [_Maiaspondylus
+lindoei_](http://en.wikipedia.org/wiki/Maiaspondylus) (Maxwell and Caldwell
+2006b), [_Athabascasaurus
+bitumineus_](http://en.wikipedia.org/wiki/Athabascasaurus) (Druckenmiller and
+Maxwell 2010), [_Aegirosaurus
+leptospondylus_](http://en.wikipedia.org/wiki/Aegirosaurus) (Bardet and
+Fernández 2000), [_Sveltonectes
+insolitus_](http://en.wikipedia.org/wiki/Sveltonectes) (Fischer et al. 2011b)
+and _Acamptonectes densus_ (Fischer et al. 2012). Along the way material and
+descriptions of _Platypterygius_ have also been reviewed and revised (e.g.
+Fernández and Aguirre-Urreta 2005; Maxwell and Caldwell 2006a; Kolb and Sander
+2009; Maxwell and Kear 2010; Adams and Fiorillo 2011; Fischer 2011; Pardo-Pérez
+et al. 2012).
+
+{% include figure image_path="/assets/images/fischeretal2012_ophthalmosaurid_jcb_survival.png" alt="Ichthyosaur survival across the Jurassic–Cretaceous boundary" caption="Figure 3. Extinction rates and clade generation rates of ophthalmosaurids (an ichthyosaur subgroup) through the Late Jurassic and Early Cretaceous. The low extinction rates show continuation of taxa across the Jurassic/Cretaceous boundary (orange). In this data there are no new clades (groups) arising after the Late Jurassic. (From Fischer et al. 2012.)" %}
+
+Fischer et al. (2012) discussed the effect of this more recently realised
+diversity. Their elegantly simple graphs (fig. 3) show that there is low to no
+extinction in ichthyosaur species over the Jurassic–Cretaceous boundary
+(145 Ma). It’s also apparent that no new clades arose following the
+Kimmeridgian/Tithonian either. This implies one or two scenarios:
+
+* Late Jurassic and Cretaceous ichthyosaur lineages had extremely long
+  lifespans.
+* The lineage and diversity data is incomplete, either due to incorrect
+  assignment of species (lumping many together) or through incomplete sampling
+  (no one’s bothered to look for any).
+
+The latter of these is mentioned in the body text (Fischer et al. 2012, p. 22),
+with particular reference to the ‘wastebasket’ nature of _Platypterygius_ and
+the poor rock record of the earliest Cretaceous. However, the conclusion
+remains: ichthyosaurs show stability in their diversity over the
+Jurassic–Cretaceous boundary and through the earliest Cretaceous. The age-old
+question of why they became extinct towards the end of the Cenomanian (94 Ma)
+stands.
+
+### A few new specimens
+
+Along with _Stenopterygius aaleniensis_ mentioned above, a few more
+ichthyosaurs took their turn in the spotlight. These add to our knowledge about
+the occurrences and biology these groups and the ecology they belonged to.
+
+#### Lower Jurassic
+
+{% include figure image_path="/assets/images/bennettetal2012_new_ichthyosaurus.png" alt="Ichthyosaurus communis from Charmouth" caption="Figure 4. A new specimen of _Ichthyosaurus communis_ from the Pliensbachian of Charmouth. This is the youngest _I. communis_ known and also shows gut contents. (From Bennett et al. 2012.)" %}
+
+[_Ichthyosaurus communis_](http://en.wikipedia.org/wiki/Ichthyosaurus) finds
+are common along the coast between Lyme Regis and Charmouth (Dorset, UK); at
+least common for ichthyosaur finds. The preservation of the material can be
+spectacular – close to that seen in the Posidonienschiefer – but all too often
+it falls short. A specimen described by Bennett et al. (2012) does look a bit
+of a mess (fig. 4), but it’s still an informative mess! This specimen contains
+enough detail to be assigned to _I. communis_, making this the youngest
+definite example of that taxon. It was found in Pliensbachian age (191–183 Ma)
+rocks, whereas _I. communis_ was previously known only from the
+Rhaetian–Sinemurian ages (208–191 Ma). There are also a number of fish remains
+preserved in the gullet region giving a glimpse of this ichthyosaur’s
+lifestyle.
+
+{% include figure image_path="/assets/images/martinetal2012_temnodontosaurus_azerguensis.png" alt="Temnodontosaurus azerguensis from France." caption="Figure 5. _Temnodontosaurus azerguensis_ from the Toarcian of France. This large ichthyosaur is odd as there are no teeth associated with it, other _Temnodontosaurus_ are well known for having big teeth. (From Martin et al. 2012.)" %}
+
+The new species _Temnodontosaurus azerguensis_ was named based on material from
+the Toarcian (183–174 Ma) of France (Martin et al. 2012). Again, this is
+another impressive specimen, for its preservation and its size, at the best
+part of 8 m long (fig. 5). The Toarcian is the age in which the
+Posidonienschiefer was deposited, making this specimen about, but slightly
+younger than the – three of the four – _Stenopterygius_ discussed above. As
+_Temnodontosaurus_ go, _T. azerguensis_ is weird – which seems to be the fad
+for new ichthyosaurs nowadays: weird is good. There were no teeth found with
+the specimen and the snout is long and thin and with reduced dental grooves.
+This compares with the “large size … and massive dentition” (Martin et al.
+2012, p. 1002) usually associated with _Temnodontosaurus_. Being from later in
+the Toarcian also means this ichthyosaur is from after the Toarcian Oceanic
+Anoxic Event. This ‘stagnation’ of the ocean occurs as oxygen levels in the
+ocean fall; fish and invertebrates then die and there is a bloom in decay
+bacteria, which then causes a further reduction in oxygen levels. An event like
+this leaves its trace in black, organic-rich strata, like the
+Posidonienschiefer. Few ichthyosaur remains are known from this time; whether
+this new species marks a post-event radiation cannot be determined.
+
+{% include figure image_path="/assets/images/lomaxmassare2012_leptonectes_embryo.png" alt="An embryo of Leptonectes" caption="Figure 6. An embryo of _Leptonectes_ from Somerset. Young are often identifiable by their large eyes. Several of the embryo’s bones are scattered, and there are vertebrae from the associated adult too. (From Lomax and Massare 2012.)" %}
+
+{% include figure image_path="/assets/images/organetal2012_stenopterygius_quadriscissus_birth.png" alt="Stenopterygius birth" caption="Figure 7. A famous _Stenopterygius_ specimen. This is usually interpreted as an adult with a juvenile in the process of being birthed: ichthyosaurs gave birth to live young, as with modern mammals. It is this, among other things, that likely allowed them to become so highly adapted to their marine lifestye. (From Organ et al. 2009.)" %}
+
+While it may not be a new species, coverage of
+a [_Leptonectes_](http://en.wikipedia.org/wiki/Leptonectes) with associated
+embryos is still exciting (Lomax and Massare 2012) (fig. 6). This was much
+closer to (my) home, being found only in Street (Somerset, UK), however the
+specimen is housed in the Sedgwick Museum, Cambridge; a little further
+a travel. Embryos have been known in ichthyosaurs for a long time (see this
+famous _Stenopterygius_ (fig. 7)), but this is the first occurrence in
+_Leptonectes_.
+
+#### Upper Jurassic
+
+The Upper Jurassic had a boost in attention towards the end of this year. I’ve
+covered the discovery of _Cryopterygius kristiansenae_ and _Palvennia
+hoybergeti_ in a post last year (Druckenmiller et al. 2012; ‘In the land of
+Svalbard…’). Also published was a description of some new material of
+_Arthropterygius_ sp. from Argentina. Curiously,
+[_Arthropterygius_](http://en.wikipedia.org/wiki/Arthropterygius) was only
+previously known from Canada (Maxwell 2010) – several thousand miles away
+today, and not much less in the Jurassic. As shocking as this may seem, it
+isn’t unheard of: examples of
+[_Ophthalmosaurus_](http://en.wikipedia.org/wiki/Ophthalmosaurus) are known the
+(western) world over; from England (Seeley 1874; Kirton 1983), Mexico (Buchy
+2010) and Argentina (as _Ancanamunia_; Rusconi 1948; Kirton 1983; Fernández and
+Maxwell 2012). Modern [Grey Whales](http://en.wikipedia.org/wiki/Gray_whale)
+also travel great distances – from their tropical birthing grounds towards the
+Arctic for feeding.
+
+#### Palaeobiology
+
+{% include figure image_path="/assets/images/rothschildatal2012_decompression_leptonectes.png" alt="An ichthyosaur with the bends" caption="Figure 8. The effects of ‘the bends’ can be seen in the bones of this _Leptonectes tenuirostris_. The bone cells are killed, and the stricture weakened, which causes failure when the bone is loaded. the shaft of the arrow is 40 mm. (From Rothschild, Xiaoting and Martin 2012.)" %}
+
+Besides naming new ichthyosaurs, a few papers discussed the palaeobiology of
+these animals both during life and after death. Rothschild, Xiaoting and Martin
+(2012) looked at [decompression
+syndrome](http://en.wikipedia.org/wiki/Decompression_sickness) (‘the bends’) in
+ichthyosaurs from the Triassic in comparison to post-Triassic. Evidence for the
+bends can be seen in the state of the bones of ichthyosaurs: build-up of
+nitrogen in the bones blocking blood vessels and killing cells causes
+deformities (fig. 8). The findings show that Triassic ichthyosaurs – along with
+_Stenopterygius_ – apparently lived a more sedate life than most of their
+Jurassic and Cretaceous relatives (see Rothschild, Xiaoting and Martin 2012,
+tbl. 1). The authors suggest several reasons for this increase in the bends in
+later ichthyosaurs:
+
+* Later ichthyosaurs, particularly the thunniform (tuna-shaped) group are more
+  adapted to deep-diving so will be more affected by repeated decompression as
+  they surface to breath (Motani, Rothschild and Wahl 1999).
+* Triassic ichthyosaurs dominated the top tiers of the food web whereas
+  Jurassic and Cretaceous ichthyosaurs faced more predation from sharks,
+  pliosaurs and marine crocodiles (Fröbisch et al. 2013).
+* Fast-swimming teleost fish evolved in the Late Jurassic and Early Cretaceous,
+  which may have caused more accidental decompression in hunting. This may be
+  associated with a more endothermic (‘warm-blooded’) metabolism (Bernard et
+  al. 2010).
+
+Incidentally, it was this article, along with its comments and replies (Hayman
+2012; Rothschild 2012) that led to John Tennant at [Green Tea and
+Velociraptors](http://fossilsandshit.wordpress.com/2012/07/31/deep-diving-dinosaurs-time-to-write-a-letter/)
+to write a letter.
+
+Nakajima, Houssaye and Endo (2012, accepted and published online) gave more
+insights on early ichthyosaur biology. This study on [_Utatsusaurus
+hataii_](http://en.wikipedia.org/wiki/Utatsusaurus) – one of the earliest and
+most basal ichthyopterygians – looked at the bone structure in the ribs and
+humeri of two specimens. The results suggest rapid growth and possibly raised
+metabolic rates: early in their evolution – and so soon after the
+Permo-Triassic extinction event (within 6–8 Ma) – these ichthyosaurs were
+already developing the characters that made them successful for 160 Ma. That
+_Utatsusaurus_ had paddles and a long, finned tail was already known. The high
+growth and metabolic rates, along with spongy inner bone structure, hints at
+a pelagic (open ocean) lifestyle and palaeoecology.
+
+{% include figure image_path="/assets/images/reisdorfetal2012_stenopterygius_exploded.png" alt="An 'exploding' ichthyosaur" caption="Figure 9. The scattered remains of a _Stenopterygius_ from the Posidonienschiefer. Specimens with the bones spread like this are not uncommon. The diffuse substrate and even low-velocity currents are the likely cause of this preservation. (From Reisdorf et al. 2012.)" %}
+
+To conclude the past year in ichthyosaur research, a look at their taphonomy.
+This takes us back, as has happened so often this year, to the
+Posidonienschiefer and exploding carcasses (Reisdorf et al. 2012). In recent
+years, the phenomenon of exploding whale carcasses has gained several hits,
+particularly from _Inside Natures’ Giants_ and on YouTube (vid. 1). These
+incidences have led to the postulation that some of the scattered ichthyosaur
+remains found could be due to this cause (e.g. Böttcher 1989; Martill 1993;
+fig. 9). Explosions of carcasses in modern whales tends only to happen when
+there’s something around to disturb the carcass – frequently a person with
+a harpoon (vid. 1, fig. 10).
+
+{% include figure image_path="/assets/images/reisdorfetal2012_exploding_whale_stills.png" alt="Exploding whale carcases" caption="Figure 10. Stills from the above video showing the effect of sticking a pointed stick into a bloated whale. (From Reisdorf et al. 2012.)" %}
+
+The carcass itself will tend to sink and – in deep enough water – the pressure
+will prevent explosion. The alternative mechanism Reisdorf et al. (2012)
+suggest is the sediments and currents. Slight currents would have been free to
+move the bones around in the nebulous ‘soupy substrates’ that made up the
+seabed (Martill 1993). Velocities of only 0.2–0.4 m/s (<1 mph; a very slow
+walking pace) would’ve be enough to move around the flank and belly ribs and
+the paddle bones causing such preservation.
+
+{% include video id="naTZWCpj" provider="youtube" %}
+
+### Conclusions
+
+This concludes my brief (really?) look at the published ichthyosaur research
+from 2012, but has not been comprehensive for the amount of research, or the
+summaries themselves. Twenty-thirteen has already seen ichthyosaur articles
+published (e.g. Fröbisch et al. 2013; Maxwell and Dececchi 2013), preview
+manuscripts (e.g. Nakajima, Houssaye and Endo 2012) and more that are currently
+in preparation.
+
+## I know what I did last year
+
+From other peoples’ work to what I’ve been doing. As I began with, 2012 was my
+first full (calendar) year in my PhD and a year later I feel I’ve made
+progress: I’m almost getting to the results stage! My original plans
+([here](/posts/phd-part-1/), [here](/posts/phd-part-2/) and
+[here](/posts/phd-part-3)) have changed somewhat due to feasibility, time and
+material constraints, but the gist remains the same.
+
+### Taxonomy
+
+The largest part of this year has been taken up with describing those
+ichthyosaurs from the Middle and Upper Jurassic. Fortunately, I was awarded
+several grants from the [Palaeontographical
+Society](http://www.palaeosoc.org/site/home/), the [Geological Society of
+London], the [Systematics Association](http://www.systass.org) and the [Bob
+Savage Memorial Fund](http://palaeo.gly.bris.ac.uk/opportunities-savage.html).
+This money was spent between August and today on visits to various museums. My
+visit to Leicester received its own post, but I also went to the Hunterian
+Museum, Glasgow, Sedgwick Museum, Cambridge, University Museum of Natural
+History, Oxford and the Natural History Museum, London. I still have to visit
+Peterborough Museum in the coming weeks.
+
+{% include figure image_path="/assets/images/nhm_ophthalmosaurus.png" alt="Ophthalmosaurus at the Natural History Museum" caption=" Figure 11. _Ophthalmosaurus icenicus_ in the main hall at the Natural History Museum, London. This specimen is about 5 m long." %}
+
+All this travelling was, for the most part, in search of as much of the
+material of _Ophthalmosaurus_ from the Leeds Collections that I could find.
+I’ve only mentioned these collections briefly and they deserve to have more
+detail on them: one of my tasks for this year. All this travelling led me to
+over 300 specimens referred to _Ophthalmosaurus_, covering every (known) bone
+in its body (fig. 11).
+
+{% include figure image_path="/assets/images/camsm_grendelius.png" alt="Grendelius at CAMSM" caption="Figure 12. _‘Grendelius’ mordax_ on display in the Sedgwick Museum, Cambridge. the lower jaw is about 1.2 m long." %}
+
+In some select places, particularly the Natural History and Sedgwick museums,
+there were those more elusive treats
+[_Brachypterygius_](http://en.wikipedia.org/wiki/Brachypterygius) and
+[_Nannopterygius_](http://en.wikipedia.org/wiki/Nannopterygius). In Cambridge,
+I came across the giant skull originally named _Grendelius_ (fig. 12) and
+London has the difficult to see skeleton of _Nannopterygius_ (fig. 13) This
+last is still causing me access problems due to its position (~6 m up on
+a wall), but this should hopefully be resolved later this year.
+
+{% include figure image_path="/assets/images/nhm_nannopterygius.png" alt="Nannopterygius in the Natural History Museum" caption="Figure 13. _Nannopterygius enthekiodon_, the best photo I could in the Natural History Museum, London. The specimen is about 3 m long." %}
+
+The descriptions of these three ichthyosaurs are largely complete in draft
+form. The basis was taken from Kirton (1983), as I’ve mentioned before, and
+I’ve checked and added much to it. Much that now needs to be done revolves
+around editing this into a manuscript, and writing the introductory and
+discussion sections.
+
+### Phylogeny
+
+When I haven’t been doing stuff with ichthyosaurs descriptions, I’ve been
+working on their relationships. This is continuing as originally planned, and
+I now have a set of characters and the first stages of a matrix, which is
+progressing well. The collection, comparing and construction of this has been
+time consuming because it requires detailed qualitative understanding of the
+ichthyosaurs themselves (all 101 species, and counting) and the characters
+themselves. Because the characters I’ve collected are derived from several
+sources, their purposes and nature can be very different. These wrinkles have
+to be resolved before any analysis can take place; this is where I am now.
+
+### Other odd jobs
+
+Much of the studies that I wrote about in ‘[My PhD: Part 3](/posts/phd-part-3)’
+require a complete, robust phylogeny; hence have not been properly started yet.
+It is also here that some of the greatest changes have happened. I had hoped to
+use some three-dimensionally preserved ichthyosaur skulls (e.g. those from
+Caine and Benton 2011), CT scanned, as the basis for a finite element analysis
+of their jaw mechanics. Unfortunately, due to the complexity of the skulls (50+
+elements), the problems of modelling sutures (where these elements meet) and it
+taking a long time to build these models, it doesn’t seem feasible to do this
+(yet).
+
+{% include figure image_path="/assets/images/temnodontosaurus_cfd.png" alt="Computational fluid dynamics" caption="Figure 14. Preliminary fluid dynamics testing. The silhouette is of _Temnodontosaurus_ from Motani (2005)." %}
+
+Instead, following the suggestion of one of my supervisors, Emily Rayfield, I’ve been looking at the related modelling of fluids ([computational fluid dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics)). The idea with this will be to use two-dimensional body silhouettes to look at the efficiency of ichthyosaurs’ motion through the water. This is very much in the designing/planning/guessing stage. I’ve run some preliminary simulations (fig. 14) just to look at how, and if, the model works. Next will be to compare with flume experiments (e.g. Ferry and Lauder 1996) to make the results are realistic. Eventually this can be combined with the phylogeny to see if there are any trends through ichthyosaur evolution.
+
+### Everything else
+
+Outside of my research, 2012 offered the chance to go to several meetings:
+
+* [Big
+  Palaeontology](https://www.geolsoc.org.uk/en/Events/Past%20Meeting%20Resources/Big%20Palaeontology%20-%20Lyell%20Meeting%202012)
+  was this year’s Lyell Meeting at the Geological Society (29 March), featuring
+  talks on topics ranging from specimen databases and virtual palaeontology
+  through to fossil code and palaeontology of the Jurassic Coast World Heritage
+  Site.
+* The [Symposium of Vertebrate Palaeontology and Comparative
+  Anatomy](http://www.svpca.org) was held in Oxford (10–15 September), but
+  unfortunately I could only spend a day there.
+
+Besides meetings, I also gave a few talks (sorry, these were on my research):
+
+* 29 November: _Large-scale evolutionary trends in ichthyosaurs_, departmental
+  presentation; extended for the [West of England Geologists'
+  Association](http://www.wega.org.uk) on 15 January 2013.
+
+## Full ahead Cap’n
+
+So what does the year ahead hold for me? Currently I’ve spent the best part of the last month not writing this blog post, and the last two days writing all 3000+ words of it, which has been good for affirming my ability to write (the amount of editing and making images notwithstanding). As last year had much work on the descriptions of _Ophthalmosaurus_, _Brachypterygius_ and _Nannopterygius_, this month I’ve largely put that aside, until after visiting Peterborough. On the other hand, I am in the process of writing a proposal for a _Society of Vertebrate Paleontology Memoir_ I’ve looked at many places to publish, with the criteria of quality, circulation and accessibility (not in that order). PLOS ONE looked promising (thanks to Darren Naish for the suggestion), but unfortunately they just won’t accept monographs (large, complete bodies of work, which this will be). The SVP memoir series offered the best mix of these three criteria; should it be accepted, it will come out in 2014.
+
+I have however picked up on creation the character list and matrix for my phylogeny, looking to complete this within ~two months. So many other things will be born from this and take up so much of the rest of my year – a flurry of projects, as I like to think of it.
+
+With all this work going on and (hopefully) being completed, 2013 is looking like a busy and rewarding year. I am expecting to have my first peer-reviewed publications, first conferences talk(s) and poster(s) and be largely on the way to completing my PhD.
+
+Three years? I can do it in that!
+
+Roll on 2013.
+
+## References
+
+[ADAMS, T. L. and FIORILLO, A. R. 2011. _Platypterygius_ Huene, 1922 (Ichthyosauria, Ophthalmosauridae) from the Late Cretaceous of Texas, USA. _Palaeontologia Electronica_, **14**, 19A:12 p.](http://palaeo-electronica.org/2011_3/1_adams/index.html)<i class="ai ai-open-access"></i>
+
+[BENNETT, S. P., BARRETT, P. M., COLLINSON, M. E., MOORE-FAY, S., DAVIS, P. G. and PALMER, C. P. 2012. A new specimen of _Ichthyosaurus communis_ from Dorset, UK, and its bearing on the stratigraphical range of the species. _Proceedings of the Geologists' Association_, **123***, 146–154.](http://dx.doi.org/10.1016/j.pgeola.2011.07.001)
+
+[BERNARD, A., LECUYER, C., VINCENT, P., AMIOT, R., BARDET, N., BUFFETAUT, E., CUNY, G., FOUREL, F., MARTINEAU, F., MAZIN, J.-M. and PRIEUR, A. 2010. Regulation of body temperature by some Mesozoic marine reptiles. _Science_, **328**, 1379–1382.](http://www.sciencemag.org/cgi/doi/10.1126/science.1187443)
+
+[BÖTTCHER, R. 1989. Über die Nahrung eines _Leptopterygius_ (Ichthyosauria, Reptilia) aus dem süddeutschen Posidonienschiefer (Unterer Jura) mit Bemerkungen über den Magen der Ichthyosaurier. _Stuttgarter Beiträge zur Naturkunde, Serie B (Geologie und Paläontologie)_, **155**, 1–19. [In German.]](http://www.archive.org/details/stuttgarterbeitr1551989staa)<i class="ai ai-open-access"></i>
+
+[BUCHY, M.-C. 2010. First record of _Ophthalmosaurus_ (Reptilia: Ichthyosauria) from the Tithonian (Upper Jurassic) of Mexico. _Journal of Paleontology_, **84**, 149–155.](http://links.isiglobalnet2.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=mekentosj&amp;SrcApp=Papers&amp;DestLinkType=FullRecord&amp;DestApp=WOS&amp;KeyUT=000273752700014)
+
+[CAINE, H. and BENTON, M. J. 2011. Ichthyosauria from the Upper Lias of Strawberry Bank, England. _Palaeontology_, **54**, 1069–1093.](http://onlinelibrary.wiley.com/doi/10.1111/j.1475-4983.2011.01093.x/abstract)
+
+[DRUCKENMILLER, P. S. and MAXWELL, E. E. 2010. A new Lower Cretaceous (lower Albian) ichthyosaur genus from the Clearwater Formation, Alberta, Canada. _Canadian Journal of Earth Sciences_, **47**, 1037–1053.](http://www.nrcresearchpress.com/doi/abs/10.1139/E10-028)
+
+[—— HURUM, J. H., KNUTSEN, E. M. and NAKREM, H. A. 2012. Two new ophthalmosaurids (Reptilia: Ichthyosauria) from the Agardhfjellet Formation (Upper Jurassic: Volgian/Tithonian), Svalbard, Norway. _Norwegian Journal of Geology_, **92**, 311–339.](http://www.geologi.no/data/f/0/21/00/9_2401_0/NJG_2_3_2012_17_Druckenmiller_etal_Pr.pdf)<i class="ai ai-open-access"></i>
+
+[FERNÁNDEZ, M. S. 1994. A new long-snouted ichthyosaur from the Early Bajocian of Neuquen Basin (Argentina). _Ameghiniana_, **31**, 291–297.](http://books.google.com/books?hl=en&amp;lr=&amp;id=Xeo9pTkWJHsC&amp;oi=fnd&amp;pg=PA291&amp;dq=fernandez+(ichthyosaur)&amp;ots=3w1-FIiUfu&amp;sig=gVuGohWXUENI3YncHq4wmoicntA) <i class="ai ai-open-access"></i>
+
+[—— 1999. A new ichthyosaur from the Los Molles Formation (Early Bajocian), Neuquen Basin, Argentina. _Journal of Paleontology_, **73**, 677–681.](http://jpaleontol.geoscienceworld.org/cgi/content/abstract/73/4/677)
+
+[—— 2001. Dorsal or ventral? Homologies of the forefin of _Caypullisaurus_ (Ichthyosauria: Ophthalmosauria). _Journal of Vertebrate Paleontology_, **21**, 515–520.](http://www.tandfonline.com/doi/abs/10.1671/0272-4634(2001)021%5B0515%3ADOVHOT%5D2.0.CO%3B2)
+
 <p><a title="Fernández 2007" href="http://www.jstor.org/stable/4133784" target="_blank">—— 2007. Redescription and phylogenetic position of <i>Caypullisaurus</i> (Ichthyosauria: Ophthalmosauridae). <i>Journal of Paleontology</i>, <b>81</b>, 368–375.</a></p>
 <p><a title="Fernández and Aguirre-Urreta 2005" href="http://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0583%3AROPHVH%5D2.0.CO%3B2" target="_blank">—— and AGUIRRE-URRETA, M. B. 2005. Revision of <i>Platypterygius hauthali</i> von Huene, 1927 (Ichthyosauria: Ophthalmosauridae) from the Early Cretaceous of Patagonia, Argentina. <i>Journal of Vertebrate Paleontology</i>, <b>25</b>, 583–587.</a></p>
 <p><a title="Fernández and Maxwell 2012" href="http://dx.doi.org/10.1016/j.geobios.2012.02.001" target="_blank">—— and MAXWELL, E. E. 2012. The genus <i>Arthropterygius</i> Maxwell (Ichthyosauria: Ophthalmosauridae) in the Late Jurassic of the Neuquén Basin, Argentina. <i>Geobios</i>, <b>45</b>, 535–540.</a></p>
