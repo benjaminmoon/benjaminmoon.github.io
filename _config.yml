@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-GB"
 title                    : "Ben Moon"
 title_separator          : "-"
-subtitle                 : Evolution, Music, Design # site tagline that appears below site title in masthead
+subtitle                 : Ichthyosaurs, Evolution, Music # site tagline that appears below site title in masthead
 name                     : "Ben Moon"
 description              : "A palaeontologist with a penchant for things that swim"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

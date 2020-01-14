@@ -2,9 +2,18 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#e52323"
+  overlay_image: "assets/images/solnhofen-walk-panorama-gs.jpg"
+  overlay_filter: rgba(229, 35, 35, 0.5)
 excerpt: >
   A palaeontologist with a penchant for things that swim.
+feature_row:
+  - image_path: "assets/images/mfn-stenopterygius-500x300.jpg"
+    alt: "Posts"
+    title: "News and blog"
+    excerpt: "Read about ichthyosaurs, my travels and other activities."
+    url: /posts/
+    btn_class: "btn--primary"
+    btn_label: "Read more"
 ---
 
 I'm currently building this website.
