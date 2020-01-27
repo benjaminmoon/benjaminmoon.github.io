@@ -10,10 +10,17 @@ feature_row:
   - image_path: "assets/images/mfn-stenopterygius-500x300.jpg"
     alt: "Posts"
     title: "News and blog"
-    excerpt: "Read about ichthyosaurs, my travels and other activities."
+    excerpt: "Read about ichthyosaurs, my travels, and other activities."
     url: /posts/
     btn_class: "btn--primary"
     btn_label: "Read more"
+  - image_path: "assets/images/me-georgia-home-500x300.jpg"
+    alt: "About Me"
+    title: "Curriculum Vitae"
+    excerpt: "Find out about my interests, work, and experience."
+    url: /about/
+    btn_class: "btn--primary"
+    btn_label: "About Me"
 ---
 
 I'm currently building this website.
