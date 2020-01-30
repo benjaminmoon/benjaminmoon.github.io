@@ -3,7 +3,11 @@ layout: single
 ---
 
 <p>
-  {{ page.start-date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
+  {% if page.end-date %}
+    {{ page.start-date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
+  {% else %}
+    {{ page.start-date | date: "%b %Y" }}
+  {% endif %}
   <em>{{ page.institution }}</em>
 </p>
 
