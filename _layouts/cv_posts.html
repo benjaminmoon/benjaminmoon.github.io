@@ -4,11 +4,28 @@ layout: single
 
 <p>
   {% if page.end-date %}
-    {{ page.start-date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
+    {{ page.date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
   {% else %}
-    {{ page.start-date | date: "%b %Y" }}
+    {{ page.date | date: "%b %Y" }}
   {% endif %}
   <em>{{ page.institution }}</em>
 </p>
+{% if page.pub-type == "paper" %}
+  <p class="notice--info">
+    {{ page.pub-authors }}
+    {{ page.date | date: "%Y" }}
+    {{ page.title }}.
+    <em>{{ page.institution }}</em>
+    {% if page.volume %}
+      <b>{{ page.volume }}</b>:
+    {% endif %}
+    {% if page.pages %}
+      {{ page.pages }}
+    {% endif %}
+    {% if page.doi %}
+      doi:<a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
+    {% endif %}
+  </p>
+{% endif %}
 
 {{ content }}
