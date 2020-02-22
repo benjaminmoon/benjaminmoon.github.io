@@ -14,6 +14,8 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+
+  font-variant-numeric: oldstyle-nums, proportional-nums;
   -moz-font-feature-settings: "onum", "pnum";
   -webkit-font-feature-settings: "onum", "pnum";
   font-feature-settings: "onum", "pnum";
