@@ -16,7 +16,7 @@ feature_row:
     btn_label: "Read more"
   - image_path: "assets/images/me-georgia-home-500x300.jpg"
     alt: "About Me"
-    title: "Curriculum Vitae"
+    title: "Curriculum vitae"
     excerpt: "Find out about my interests, work, and experience"
     url: /about/
     btn_class: "btn--primary"
@@ -24,7 +24,7 @@ feature_row:
   - image_path: "assets/images/mfn-stenopterygius-500x300.jpg"
     alt: "Research interests"
     title: "Research interests"
-    excerpt: "Learn about the methods animals that I research"
+    excerpt: "Learn about the methods that I use and the animals that I research"
     url: /research/
     btn_class: "btn--primary"
     btn_label: "My Research"
