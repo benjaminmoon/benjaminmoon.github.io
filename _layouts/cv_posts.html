@@ -4,16 +4,16 @@ layout: single
 
 <p>
   {% if page.end-date %}
-    {{ page.date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
+    {{ page.start-date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
   {% else %}
-    {{ page.date | date: "%b %Y" }}
+    {{ page.start-date | date: "%b %Y" }}
   {% endif %}
   <em>{{ page.institution }}</em>
 </p>
 {% if page.pub-type == "paper" %}
   <p class="notice--info">
     {{ page.pub-authors }}
-    {{ page.date | date: "%Y" }}
+    {{ page.start-date | date: "%Y" }}
     {{ page.title }}.
     <em>{{ page.institution }}</em>
     {% if page.volume %}

@@ -27,10 +27,10 @@ layout: archive
           {% if post.end-date %}
             {{ post.start-date | date: "%Y" }}–{{ post.end-date | date: "%Y" }}:
           {% else %}
-            {{post.start-date | date: "%Y" }}:
+            {{ post.start-date | date: "%b" }}:
           {% endif %}
-          <a href="{{ post.url |relative_url }}" rel="permalink">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>,
-          {{ post.institution | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>,
+          <em>{{ post.institution | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</em>
         </p>
       {% endfor %}
     </div>

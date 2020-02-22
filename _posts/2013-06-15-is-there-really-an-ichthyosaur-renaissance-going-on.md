@@ -20,13 +20,34 @@ about](http://blogs.scientificamerican.com/tetrapod-zoology/2013/05/14/malawania
 on Darren’s blog _Tetrapod Zoology_ – and I’ve used it many times since. So
 what does it actually mean?
 
-{% include figure image_path="/assets/images/2013-06-15-publications1.png" alt="Ichthyosaur publications to 2013" caption="Ichthyosaur publications and authors from their first description (Home 1814) through to the present day (halfway through 2013). The basic idea is gently up, flattish then steeply up. I should point out that these are only the ones that I know of and are certainly not all." %}
+{% include figure image_path="/assets/images/2013-06-15-publications.png" alt="Ichthyosaur publications to 2013" caption="Ichthyosaur publications and authors from their first description (Home 1814) through to the present day (halfway through 2013). The basic idea is gently up, flattish then steeply up. I should point out that these are only the ones that I know of and are certainly not all." %}
 
-Many of the large fossil vertebrate groups – ichthyosaurs, plesiosaurs and dinosaurs among them – have had long histories and many ups and downs. They were first properly recognised and published upon 199, 192 and 189 years ago respectively (Home 1814; De la Beche and Conybeare 1821; Buckland 1824) and immediately captured both geologists’ and the public’s hearts. From this, there was much study, so that by the end of the 19^th^ Century the groups were considered ‘complete’ and any new finds would be easily fitted in. All three have a noticeable scarcity of publications between the 1920s through 1960s–70s, especially compared to the large monographs the late 1800s (e.g. Owen 1881).
+Many of the large fossil vertebrate groups
+– ichthyosaurs, plesiosaurs and dinosaurs among them
+– have had long histories and many ups and downs. They
+were first properly recognised and published upon 199,
+192 and 189 years ago respectively (Home 1814; De la
+Beche and Conybeare 1821; Buckland 1824) and
+immediately captured both geologists’ and the public’s
+hearts. From this, there was much study, so that by
+the end of the 19^th^ Century the groups were
+considered ‘complete’ and any new finds would be
+easily fitted in. All three have a noticeable scarcity
+of publications between the 1920s through 1960s–70s,
+especially compared to the large monographs the late
+1800s (e.g. Owen 1881).
 
-However, what has happened in the last 30–40 years is that interest has returned to the ichthyosaurs, plesiosaurs and dinosaurs. In ichthyosaurs, where this started can be fairly precisely pinpointed to the period 1965–1975 and the work of Appleby, Mazin, Romer and McGowan in particular. Since then, there has been a sharp rise in the numbers of publications and authors, such that publications on ichthyosaurs are approaching, or may have passed, 600 in total – two-thirds of which were published within the past 45–50 years. Of course, these are only the ones that I known of, and that certainly is not all.
+However, what has happened in the last 30–40 years is that interest has
+returned to the ichthyosaurs, plesiosaurs and dinosaurs. In ichthyosaurs, where
+this started can be fairly precisely pinpointed to the period 1965–1975 and the
+work of Appleby, Mazin, Romer and McGowan in particular. Since then, there has
+been a sharp rise in the numbers of publications and authors, such that
+publications on ichthyosaurs are approaching, or may have passed, 600 in total
+– two-thirds of which were published within the past 45–50 years. Of course,
+these are only the ones that I known of, and that certainly is not all.
 
-So in answer to the titular question: yes, there is really an ichthyosaur renaissance.
+So in answer to the titular question: yes, there is really an ichthyosaur
+renaissance.
 
 ## References
 

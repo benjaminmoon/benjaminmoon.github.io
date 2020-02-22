@@ -36,4 +36,4 @@ the ichthyosaur fossil and determining its colour patterning. And Emily’s and
 my [calculating how powerful the
 bite](http://www.bbc.co.uk/programmes/articles/3gBPbbRKVJQxRMwYkkPqPGM/big-jaws-big-bite)
 was of another, larger ichthyosaur that was swimming around at the same time.
-The programme website is here: (http://www.bbc.co.uk/programmes/b09m2kgl).
+The programme website is here: [http://www.bbc.co.uk/programmes/b09m2kgl](http://www.bbc.co.uk/programmes/b09m2kgl).

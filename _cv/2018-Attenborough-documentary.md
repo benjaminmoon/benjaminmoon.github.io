@@ -11,7 +11,7 @@ work included in the documentary.
 
 {% include video id="0te9B7Pjx9o" provider="youtube" %}
 
-The programme itself was broadcast on [7 January 2018](_posts/ichthyosaurs/attenborough-and-the-sea-dragon/) and
+The programme was broadcast on [7 January 2018](_posts/ichthyosaurs/attenborough-and-the-sea-dragon/) and
 followed the discovery of an ichthyosaur at Lyme Regis and
 David learning more about it and the environment in which
 it lived.

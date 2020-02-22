@@ -2,7 +2,7 @@
 pub-type: "paper"
 pub-authors: "Moon, B.C. & Stubbs, T.L."
 title: "Early high rates and disparity in the evolution of ichthyosaurs"
-date: 2020-02-13
+start-date: 2020-02-13
 institution: "Communications Biology"
 doi: 10.1038/s42003-020-0779-6
 volume: 3
@@ -26,11 +26,11 @@ from a range of trees produced by Moon (2019).
     alt_text="Rates of character evolution in ichthyosaurs"
     caption="Rates of cladistic character evolution in ichthyosaurs.
     Significantly high rates of evolution occur early in ichthyosaur evolution,
-    but are distinctly reduced in after the Triassic–Jurassic boundary."
+    but are distinctly reduced after the Triassic–Jurassic boundary."
 %}
 
 Ichthyosaurs had an archetypal ‘early burst’ of evolution following their first
-appearances: high rates of evolution early on in their history. This manifests
+appearance: high rates of evolution early on in their history. This manifests
 itself as a rapid diversification in taxonomy, morphology, and ecology during
 the Early–Middle Triassic followed by relatively slower rates.
 

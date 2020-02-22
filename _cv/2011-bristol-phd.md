@@ -26,5 +26,6 @@ distinct questions in ichthyosaur evolution.
 3. _Morphological trends through ichthyosaur evolution._ My final chapter
    is a macroevolutionary analysis of continuous character evolution
    in ichthyosaurs using morphospace, disparity, and evolutionary
-   rates. A modified version of this chapter is accepted for
-   publication at _Communications Biology_.
+   rates. A modified version of this chapter is 
+   published as [Moon, BC & Stubbs, TL. 2020. _Commun Biol_
+   doi:10.1038/s42003-020-0779-6](https://doi.org/10.1038/s42003-020-0779-6).
