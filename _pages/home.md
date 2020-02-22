@@ -21,13 +21,6 @@ feature_row:
     url: /about/
     btn_class: "btn--primary"
     btn_label: "About Me"
-  - image_path: "assets/images/mfn-stenopterygius-500x300.jpg"
-    alt: "Research interests"
-    title: "Research interests"
-    excerpt: "Learn about the methods animals that I research"
-    url: /research/
-    btn_class: "btn--primary"
-    btn_label: "My Research"
 ---
 
 I'm currently building this website.
