@@ -10,6 +10,6 @@ the programme foldout.
 
 The foldout was perhaps my favourite thing to create the foldout: showing the
 entire programme for the conference in two pages. You can see a [PDF
-here](/assets/pdfs/palass2018-foldout.pdf). I also made a [field guide
-(PDF)](/assets/pdfs/palass2018-fieldguide.pdf) for the
+here](https://k00.fr/xtefmbzp). I also made a [field guide
+(PDF)](https://k00.fr/r9a7f3vt) for the
 two field trips to Watchet and Aust.

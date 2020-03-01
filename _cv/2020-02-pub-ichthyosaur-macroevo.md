@@ -74,6 +74,10 @@ Triassic ichthyosaur from the UK and a reinterpretation of the Aust Cliff
 dinosaurian bones. _PLoS ONE_ **13**:
 e0194742.](http://dx.plos.org/10.1371/journal.pone.0194742)
 
+[Moon, B.C. 2019. A new phylogeny of ichthyosaurs (Reptilia: Diapsida). _Journal
+of Systematic Palaeontology_ **17**:
+129–155.](http://dx.doi.org/10.1080/14772019.2017.1394922)
+
 [Motani, R., Jiang, D., Tintori, A., Ji, C. and Huang, J.-D. 2017. Pre- versus
 post-mass extinction divergence of Mesozoic marine reptiles dictated by
 time-scale dependence of evolutionary rates. _Proceedings of the Royal Society
