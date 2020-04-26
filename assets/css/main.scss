@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* custom typefaces */
+$serif: source-serif-pro, serif !default;
+$sans-serif: source-sans-pro, sans-serif !default;
+$monospace: source-code-pro, monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+/* change global typefaces */
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
+
+/* opentype features */
+body {
+  font-variant-numeric: oldstyle-nums, proportional-nums;
+  -moz-font-feature-settings: "onum", "pnum";
+  -webkit-font-feature-settings: "onum", "pnum";
+  font-feature-settings: "onum", "pnum";
+}
+
+/* sharing colours */
+$reddit-color: #ff4500 !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/buttons.scss";
+@import "academicons.css";
+

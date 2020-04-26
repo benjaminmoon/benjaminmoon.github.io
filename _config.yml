@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : Ichthyosaurs, Evolution, Music # site tagline that appears below site title in masthead
 name                     : "Ben Moon"
 description              : "A palaeontologist with a penchant for things that swim"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://bcmoon.uk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : benjaminmoon/benjaminmoon.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :moononthebones
+  username               : moononthebones
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -107,11 +107,11 @@ author:
   avatar           : "assets/images/bio-BMoon.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A palaeontologist with a penchant for things that swim"
   location         : "Bristol, UK"
-  email            :
+  # email            : "ben@bcmoon.uk"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: "mailto:ben@bcmoon.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://bcmoon.uk"
@@ -142,13 +142,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/benjaminmoon"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-
 
 # Reading Files
 include:
