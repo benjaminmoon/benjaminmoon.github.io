@@ -1,11 +1,11 @@
 ---
-title: "Postdoctoral Research Associate"
+title: "Postdoctoral Senior Research Associate"
 start-date: 2019-03-01
 end-date: "present"
-position: "Postdoctoral Research Associate"
+position: "Postdoctoral Senior Research Associate"
 institution: "University of Bristol"
 ---
-I am a research associate at the University of Bristol on the NERC funded BETR
+I am a senior research associate at the University of Bristol on the NERC funded BETR
 project examining the recovery of tetrapods after the end-Permian extinction.
 
 At the end of the Permian Period (252 million years ago) there was the largest
