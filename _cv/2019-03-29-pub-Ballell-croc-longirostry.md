@@ -3,6 +3,7 @@ pub-type: "paper"
 pub-authors: "Ballell, A., Moon, B.C., Porro, L.B., Benton, M.J. & Rayfield, E.J."
 title: "Convergence and functional evolution of longirostry in crocodylomorphs"
 start-date: 2019-03-29
+date: 2020-05-12
 institution: "Palaeontology"
 doi: 10.1111/pala.12432 
 volume: 62

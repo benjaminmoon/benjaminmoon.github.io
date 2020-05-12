@@ -4,6 +4,7 @@ pub-authors: "Flannery Sutherland, J.T., Moon, B.C., Stubbs, T.L. & Benton, M.J.
 title: "Does exceptional preservation distort our view of disparity in the
 fossil record?"
 start-date: 2019-02-27
+date: 2020-05-12
 institution: "Proceedings of the Royal Society B"
 doi: 10.1098/rspb.2019.0091
 volume: 286

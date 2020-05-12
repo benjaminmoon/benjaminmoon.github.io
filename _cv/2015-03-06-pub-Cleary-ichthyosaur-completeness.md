@@ -4,6 +4,7 @@ pub-authors: "Cleary, T.J., Moon, B.C., Dunhill, A.M. & Benton, M.J."
 title: "The fossil record of ichthyosaurs, completeness metrics and sampling
 biases"
 start-date: 2015-03-06
+date: 2020-05-12
 institution: "Palaeontology"
 doi: 10.1111/pala.12158 
 volume: 58

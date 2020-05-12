@@ -3,6 +3,7 @@ pub-type: "paper"
 pub-authors: "Marek, R.D., Moon, B.C., Williams, M. & Benton, M.J."
 title: "The skull and endocranium of a Lower Jurassic ichthyosaur based on digital reconstructions"
 start-date: 2015-06-15
+date: 2020-05-12
 institution: "Palaeontology"
 doi: 10.1111/pala.12174
 volume: 58

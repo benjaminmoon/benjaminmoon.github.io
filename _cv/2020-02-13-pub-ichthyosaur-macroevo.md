@@ -3,6 +3,7 @@ pub-type: "paper"
 pub-authors: "Moon, B.C. & Stubbs, T.L."
 title: "Early high rates and disparity in the evolution of ichthyosaurs"
 start-date: 2020-02-13
+date: 2020-05-12
 institution: "Communications Biology"
 doi: 10.1038/s42003-020-0779-6
 volume: 3

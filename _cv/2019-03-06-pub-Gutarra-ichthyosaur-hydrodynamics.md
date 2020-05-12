@@ -4,6 +4,7 @@ pub-authors: "Gutarra, S., Moon, B.C., Rahman, I.A., Palmer, C.,
 Lautenschlager, S., Brimacombe, A.J. & Benton, M.J."
 title: "Effects of body plan evolution on the hydrodynamic drag and energy requirements of swimming in ichthyosaurs"
 start-date: 2019-03-06
+date: 2020-05-12
 institution: "Proceedings of the Royal Society B"
 doi: 10.1098/rspb.2018.2786
 volume: 286
