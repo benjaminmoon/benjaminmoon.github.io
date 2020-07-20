@@ -14,7 +14,7 @@ layout: single
   <p class="notice--info">
     {{ page.pub-authors }}
     {{ page.start-date | date: "%Y" }}
-    {{ page.title }}.
+    {{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}.
     <em>{{ page.institution }}</em>
     {% if page.volume %}
       <b>{{ page.volume }}</b>:
