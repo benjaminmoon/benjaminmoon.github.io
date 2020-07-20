@@ -10,7 +10,7 @@ gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # https://github.com/advisories/GHSA-j96r-xvjq-r9pg
-gem "activesupport", ">= 4.1.11"
+gem "activesupport", ">= 6.0.3.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
