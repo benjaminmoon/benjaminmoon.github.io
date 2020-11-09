@@ -1,12 +1,11 @@
 ---
 title: "Brunel Sinfonia Lockdown Projects"
-author: Ben Moon
-categories:
-    - music
+category: music
 tags:
     - orchestra
     - lockdown
     - tuba
+classes: wide
 ---
 
 In my non-working time I'm a musician – playing tuba in a few local orchestras and wind bands, and piano for myself in my room. Of course playing together in groups has not been possible for several months now, but one of Bristol's amateur orchestras – [Brunel Sinfonia](https://www.brunelsinfonia.org.uk) – has been able to organise _lockdown projects_ bringing us together virtually to play some pieces you can see on YouTube. Here are links to a few of these videos.
