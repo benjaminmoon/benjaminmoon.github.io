@@ -4,3 +4,19 @@ main:
     url: /about/ 
   - title: "Posts"
     url: /posts/
+
+# sidebar navigation links to my thesis
+thesis:
+    - title: "Ichthyosaurs of the British Middle & Upper Jurassic & the Evolution of Ichthyosaurs"
+      url: /thesis/
+      children:
+          - title: "Front matter"
+            url: /thesis/1-front-matter/
+          - title: "Introduction"
+            url: /thesis/2-Introduction/
+
+    - title: "Chapter 1 — Ichthyosaurs of the British Middle & Upper Jurassic"
+      url: /thesis/
+      children:
+          - title: "Introduction"
+            url: /thesis/X-Ch1-1Introduction/

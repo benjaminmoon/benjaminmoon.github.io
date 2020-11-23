@@ -102,6 +102,9 @@ collections:
   cv:
     output: true
     permalink: /:collection/:path/
+  thesis:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Footer
 footer:
@@ -266,3 +269,18 @@ defaults:
       layout: cv_posts 
       author_profile: true
       share: false
+  # _thesis
+  - scope:
+      path: "_thesis"
+      type: thesis
+    values:
+      layout: single
+      read_time: true
+      toc: true
+      toc_icon: arrow-right
+      share: true
+      author_profile: false
+      comments: false
+      breadcrumbs: true
+      sidebar:
+          nav: "thesis"
