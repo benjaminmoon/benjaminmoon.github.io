@@ -8,7 +8,6 @@ main:
 # sidebar navigation links to my thesis
 thesis:
     - title: "Ichthyosaurs of the British Middle & Upper Jurassic & the Evolution of Ichthyosaurs"
-      url: /thesis/
       children:
           - title: "Front matter"
             url: /thesis/1-front-matter/
@@ -16,7 +15,20 @@ thesis:
             url: /thesis/2-Introduction/
 
     - title: "Chapter 1 — Ichthyosaurs of the British Middle & Upper Jurassic"
-      url: /thesis/
       children:
+          - title: "Front matter"
+            url: /thesis/3-Ch1-front-matter/
           - title: "Introduction"
-            url: /thesis/X-Ch1-1Introduction/
+            url: /thesis/4-Ch1-introduction/
+          - title: "History of research"
+            url: /thesis/5-Ch1-history-of-research/
+          - title: "Stratigraphy"
+            url: /thesis/6-Ch1-stratigraphy/
+          - title: "Material & methods"
+            url: /thesis/7-Ch1-materials-and-methods/
+          - title: "Systematic palaeontology"
+            url: /thesis/8-Ch1-systematic-palaeontology/
+          - title: "Genus *Ophthalmosaurus* Seeley, 1874"
+            url: /thesis/9-Ch1-Ophthalmosaurus/
+          - title: "Ophthalmosaurus icenicus Seeley, 1874"
+            url:  /thesis/10-Ch1-Ophthalmosaurus-icenicus/

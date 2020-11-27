@@ -86,7 +86,7 @@ and the palaeobiogeography of Middle and Upper Jurassic ichthyosaurs
 ([\[tax:palaeobiogeography\]](#tax:palaeobiogeography){reference-type="ref"
 reference="tax:palaeobiogeography"}).
 
-### Acknowledgements {#acknow}
+## Acknowledgements {#acknow}
 
 BCM would like to thank the following people for their help and
 discussion during the preparation of this monograph: I. Gladstone,
@@ -124,7 +124,7 @@ throughout. Financial support for this research was provided by a
 postgraduate studentship from the National Environmental Research
 Council.
 
-### Abbreviations {#abbrev}
+## Abbreviations {#abbrev}
 
 ANSP, Academy of Natural Sciences, Philadelphia, Pennsylvania, USA;
 BRSMG, Bristol City Museum and Art Gallery, Bristol, UK; BRSUG, School
@@ -146,7 +146,7 @@ Staatliches Museum für Naturkunde, Stuttgart, Germany; SOTUG, University
 of Southampton Geology Collections, University of Southampton,
 Southampton, UK; WESTM, Weston-super-Mare Museum, Weston-super-Mare, UK.
 
-### References
+## References
 
 Andrews, C.W. 1915. Note on a Mounted Skeleton of *Ophthalmosaurus icenicus*,
 Seeley. *Geological Magazine* 2 (4): 145--146.

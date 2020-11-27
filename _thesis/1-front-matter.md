@@ -2,7 +2,7 @@
 title: "Ichthyosaurs of the British Middle & Upper Jurassic & the Evolution of Ichthyosaurs"
 ---
 
-Benjamin C. Moon
+*Benjamin C. Moon*
 
 ![image-right](/assets/images/thesis/fig-UoBCoA.png){: .align-center}
 Supervised by Prof. Michael J. Benton & Prof. Emily J. Rayfield.    

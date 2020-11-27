@@ -254,7 +254,7 @@ gore, while you shriek, and the aid of the ladies implore, and
 convulsively grasp at the rocks and the shore; but he's got you ...
 
 Eugene Batchelder\
-*A Romance of the Sea-Serpent, or the *Ichthyosaurus**,
+*A Romance of the Sea-Serpent, or the Ichthyosaurus*,
 [-@Batchelder1850]
 :::
 

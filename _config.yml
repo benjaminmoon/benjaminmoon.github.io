@@ -275,6 +275,7 @@ defaults:
       type: thesis
     values:
       layout: single
+      author: "Ben Moon"
       read_time: true
       toc: true
       toc_icon: arrow-right
