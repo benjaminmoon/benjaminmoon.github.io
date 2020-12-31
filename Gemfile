@@ -7,7 +7,7 @@ gem "faraday", "0.17.3"
 gem "kramdown", ">= 2.3.0"
 
 # theme plugin
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", ">= 4.21.0"
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?

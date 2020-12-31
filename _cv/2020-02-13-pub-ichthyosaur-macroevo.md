@@ -2,12 +2,12 @@
 pub-type: "paper"
 pub-authors: "Moon, B.C. & Stubbs, T.L."
 title: "Early high rates and disparity in the evolution of ichthyosaurs"
-start-date: 2020-02-13
-date: 2020-10-22
+end-date: 2020-02-13
 institution: "Communications Biology"
 doi: 10.1038/s42003-020-0779-6
 volume: 3
 pages: 68
+last_modified_date: 2020-12-31
 ---
 Rates of evolution in ichthyosaurs have been considered a few times previously
 (Fischer et al. 2016, Motani et al. 2017), but not at the level of the whole group and

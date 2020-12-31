@@ -1,7 +1,9 @@
 ---
 title: "Edward Forbes Prize awardee"
-start-date: 2019-06-01
+end-date: 2019-06-01
 institution: "Palaeontographical Society"
+pub-type: award
+last_modified_date: 2020-12-31
 ---
 I was awarded the 2019 Edward Forbes Prize by the Palaeontographical Society for my monograph _Ichthyosaurs of the British Middle and Upper Jurassic. Part 2._ Brachypterygius, Nannopterygius, Macropterygius _and_ Taxa invalida. The [Edward Forbes Prize](https://www.palaeosoc.org/site/page/grants-and-prizes/research-funding-details) recognises 'outstanding contributions by early career researchers in the field of taxonomic and systematic palaeontology'.
 

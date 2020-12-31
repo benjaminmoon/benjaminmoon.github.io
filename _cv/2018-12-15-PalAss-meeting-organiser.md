@@ -1,7 +1,10 @@
 ---
 title: "_Palaeontological Association Annual Meeting_, Co-organiser"
-start-date: 2018-12-15
+start-date: 2018-12-14
+end-date: 2018-12-17
 institution: "University of Bristol"
+pub-type: professional
+last_modified_at: 2020-12-31
 ---
 I helped to organise the 2018 PalAss Annual Meeting along with Jakob Vinther,
 John Cunningham, Tom Davies, Phil Donoghue, Emily Rayfield, Dani Schmidt, and

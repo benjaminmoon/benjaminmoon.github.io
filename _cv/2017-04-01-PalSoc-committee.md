@@ -1,9 +1,12 @@
 ---
 title: "Ordinary Committee Member"
-start-date: 2017-04-01
-end-date: "present"
+start-date: 2017-04-19
+end-date: 2020-04-22
 institution: "Palaeontographical Society"
+pub-type: professional
+last_modified_at: 2020-12-31
 ---
+
 I've been a member of the Palaeontographical Society Committee since 2017,
 contributing to the running of the society.
 

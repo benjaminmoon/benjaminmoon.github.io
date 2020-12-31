@@ -1,14 +1,13 @@
 ---
 pub-type: "paper"
 pub-authors: "Cleary, T.J., Moon, B.C., Dunhill, A.M. & Benton, M.J."
-title: "The fossil record of ichthyosaurs, completeness metrics and sampling
-biases"
-start-date: 2015-03-06
-date: 2020-05-12
+title: "The fossil record of ichthyosaurs, completeness metrics and sampling biases"
+end-date: 2015-03-06
 institution: "Palaeontology"
 doi: 10.1111/pala.12158 
 volume: 58
 pages: 521–536
+last_modified_date: 2020-12-31
 ---
 For her MSc project Terri Cleary assessed how ichthyosaur skeletal completeness
 varied through time using metrics devised by [Mannion & Upchurch
