@@ -2,12 +2,13 @@
 pub-type: "book"
 pub-authors: "Naish, D. & Moon, B.C."
 title: "Ichthyosauria"
-chapter: 14
+chapter: 5
 pages: 75–90
 editors: "Martill, D.M. & Etches, S."
 isbn: 978-0-901702-74-6
 end-date: 2020-12-18
 institution: "Fossils of the Kimmeridge Clay"
+volume: 2
 last_modified_at: 2021-01-02
 ---
 A long time coming, but hopefully should be a useful addition. Darren Naish and I
