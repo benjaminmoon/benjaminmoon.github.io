@@ -21,8 +21,8 @@ Thesis.'
     caption="Cover slide from my talk at the University of Bonn in December 2020. The image background is taken from Scheyer _et al._ (2014)."
 %}
 
-Here I spoke about measuring diversity trends in ichthyosaurs and interesting
-points of their evolution at three different levels:
+Here I spoke about measuring diversity trends in ichthyosaurs, other marine
+tetrapods, and interesting points of their evolution at three different levels:
 
 1. _Raw taxonomic diversity:_ both from currently assigned and valid species,
    as well as potentially increasing this with new discoveries of material
