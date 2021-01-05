@@ -2,8 +2,9 @@
 pub-type: "talk"
 pub-authors: Moon, B.C.
 title: "Exploring Ichthyosaurs in the 21st Century"
-start-date: 2020-11-05
+end-date: 2020-11-05
 institution: "Bath Geological Society"
+last_modified_date: 2020-12-31
 ---
 
 I was invited to talk to Bath Geological Society on 5 November 2020 – fireworks night and the beginning of _Lockdown 2_ (this time it's personal) – an auspicious night indeed.

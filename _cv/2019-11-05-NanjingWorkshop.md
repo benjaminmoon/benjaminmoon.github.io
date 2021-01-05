@@ -1,9 +1,10 @@
 ---
-pub-type: "workshop"
+pub-type: "teaching"
 title: "Phylogenetics in Palaeobiology Workshop"
 start-date: 2019-11-08
+end-date: 2019-11-29
 institution: "Nanjing University"
-date: 2020-10-23
+last_modified_date: 2020-12-31
 ---
 In late 2019 I was asked to help lead a workshop at Nanjing University entitled _Phylogenetics in Palaeobiology_ alongside Mike Benton and invited and hosted by Baoyu Jiang and Qingyi Tian. This workshop introduced the development and theory behind cladistics and gave experience in modern phylogenetic analysis.
 

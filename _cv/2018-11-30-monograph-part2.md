@@ -1,14 +1,13 @@
 ---
 pub-type: "paper"
 pub-authors: "Moon, B. C. & Kirton, A. M."
-title: "Ichthyosaurs of the British Middle and Upper Jurassic. Part Two.
-_Brachypterygius, Nannopterygius, Macropterygius,_ and taxa invalida"
-start-date: 2018-11-30
-date: 2020-07-18
-institution: "Monographs of the Palaeontographical Society"
+title: "Ichthyosaurs of the British Middle and Upper Jurassic. Part Two. _Brachypterygius, Nannopterygius, Macropterygius,_ and taxa invalida"
+end-date: 2018-11-30
+institution: "Monograph of the Palaeontographical Society"
 doi: 10.1080/02693445.2018.1468139
 volume: 172(650)
 pages: 85–176
+last_modifed_at: 2020-12-31
 ---
 
 While [part one](/cv/2016-11-30-monograph-Ophthalmosaurus/) of this monograph

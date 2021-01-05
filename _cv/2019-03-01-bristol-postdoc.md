@@ -1,9 +1,11 @@
 ---
 title: "Postdoctoral Senior Research Associate"
 start-date: 2019-03-01
-end-date: "present"
+end-date: Present
 position: "Postdoctoral Senior Research Associate"
 institution: "University of Bristol"
+pub-type: academia
+last_modified_at: 2020-12-31
 ---
 I am a senior research associate at the University of Bristol on the NERC funded BETR
 project examining the recovery of tetrapods after the end-Permian extinction.

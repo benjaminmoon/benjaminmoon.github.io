@@ -3,6 +3,8 @@ title: "_Attenborough and the Sea Dragon_, Scientific Advisor"
 start-date: 2016-08-01
 end-date: 2018-01-07
 institution: "BBC One"
+pub-type: outreach
+last_modified_at: 2012-12-31
 ---
 I was invited to advise and contribute to this documentary
 during the proposal stage, and following commission,

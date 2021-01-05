@@ -3,6 +3,8 @@ title: "PhD Geology"
 start-date: 2011-10-03
 end-date: 2015-09-30
 institution: "University of Bristol"
+pub-type: academia
+last_modified_at: 2012-12-31
 ---
 My PhD thesis is entitled "Ichthyosaurs of the British Middle & Upper
 Jurassic & the Evolution of Ichthyosaurs". My three chapters covered

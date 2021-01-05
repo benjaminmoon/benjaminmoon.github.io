@@ -1,14 +1,13 @@
 ---
 pub-type: "paper"
 pub-authors: "Moon, B. C. & Kirton, A. M."
-title: "Ichthyosaurs of the British Middle and Upper Jurassic. Part One.
-_Ophthalmosaurus_"
-start-date: 2016-11-30
-date: 2020-07-18
-institution: "Monographs of the Palaeontographical Society"
+title: "Ichthyosaurs of the British Middle and Upper Jurassic. Part One. _Ophthalmosaurus_"
+end-date: 2016-11-30
+institution: "Monograph of the Palaeontographical Society"
 doi: 10.1080/02693445.2016.11963958
 volume: 170(647)
 pages: 1–84
+last_modified_at: 2020-12-31
 ---
 
 Ichthyosaurs have been a relatively common fixture of UK palaeontology since

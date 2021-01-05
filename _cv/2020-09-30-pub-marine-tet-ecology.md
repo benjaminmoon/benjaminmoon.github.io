@@ -2,9 +2,10 @@
 pub-type: "paper"
 pub-authors: "Reeves, J.C., Moon, B.C., Benton, M.J. & Stubbs, T.L."
 title: "Evolution of ecospace occupancy by Mesozoic marine tetrapods"
-start-date: 2020-09-30
+end-date: 2020-09-30
 institution: "Palaeontology"
 doi: 10.1111/pala.12508
+last_modified_date: 2020-12-31
 ---
 This paper is the result of a MSc project by Jane at the University of Bristol. It resulted from an earlier study using quantitative ecospace modelling (Bush and Novack-Gottshall 2012) in ichthyosaurs (Dick and Maxwell 2015) that we took inspiration from and extended to all Mesozoic marine tetrapods. The idea behind this method is simple: use a series of discrete characters to categorise marine tetrapod ecology – such as body size, feeding, swimming, habitat, and others – and then use methods from disparity analyses – non-metric multidimensional scaling and measures of variation – to explore how ecology and ecological diversity changes through time.
 

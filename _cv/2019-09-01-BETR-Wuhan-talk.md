@@ -1,8 +1,9 @@
 ---
+last_modified_date: 2020-12-31
 pub-type: "talk"
 pub-authors: Moon, B.C.
 title: "Measuring diversity, ecology, and evolution in marine tetrapods"
-start-date: 2019-09-15
+end-date: 2019-09-15
 institution: "BETR Workshop: Geobiological Methods and Advances"
 gallery:
   - url: /assets/images/Wuhan2019_Ediacaran-hires.jpg
