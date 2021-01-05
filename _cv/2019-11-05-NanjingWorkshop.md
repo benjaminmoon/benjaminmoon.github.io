@@ -1,7 +1,8 @@
 ---
 pub-type: "teaching"
 title: "Phylogenetics in Palaeobiology Workshop"
-end-date: 2019-11-08
+start-date: 2019-11-08
+end-date: 2019-11-29
 institution: "Nanjing University"
 last_modified_date: 2020-12-31
 ---

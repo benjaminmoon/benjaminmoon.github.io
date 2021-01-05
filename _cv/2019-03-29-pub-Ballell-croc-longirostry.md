@@ -7,7 +7,7 @@ institution: "Palaeontology"
 doi: 10.1111/pala.12432 
 volume: 62
 pages: 867–887
-last_modified_date: 2020-12-31
+last_modified_at: 2021-01-02
 ---
 This project was completed by Antonio while he was an MSc student at the
 University of Bristol. We used CT scan data of two crocodiles: _Pelagosaurus_,
