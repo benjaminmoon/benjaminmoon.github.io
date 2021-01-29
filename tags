@@ -2387,6 +2387,7 @@ Ben Moon	_site/404.html	/^      <h3 class="author__name" itemprop="name">Ben Moo
 Ben Moon	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
 Ben Moon	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
 Ben Moon	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
+Ben Moon	_site/PhD/recently-in-my-life/index.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
 Ben Moon	_site/about/index.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
 Ben Moon	_site/brevis/brevis-what-on-earth-is-palaeontology/index.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
 Ben Moon	_site/categories/index.html	/^      <h3 class="author__name" itemprop="name">Ben Moon<\/h3>$/;"	j
@@ -2480,6 +2481,7 @@ British Upper Jurassic ichthyosaurs	_site/PhD/my-phd-part-1-a-new-ichthyosaur.ht
 Brunel Sinfonia Lockdown Projects	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^    <\/h2>$/;"	i
 Brunel Sinfonia Lockdown Projects	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^    <\/h2>$/;"	i
 Brunel Sinfonia Lockdown Projects	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^    <\/h2>$/;"	i
+Brunel Sinfonia Lockdown Projects	_site/PhD/recently-in-my-life/index.html	/^    <\/h2>$/;"	i
 Brunel Sinfonia Lockdown Projects	_site/blog/index.html	/^    <\/h2>$/;"	i
 Brunel Sinfonia Lockdown Projects	_site/brevis/brevis-what-on-earth-is-palaeontology/index.html	/^    <\/h2>$/;"	i
 Brunel Sinfonia Lockdown Projects	_site/categories/index.html	/^    <\/h2>$/;"	i
@@ -2934,6 +2936,7 @@ Recent posts	_site/blog/page6/index.html	/^<h3 class="archive__subtitle">Recent 
 Recent posts	_site/blog/page7/index.html	/^<h3 class="archive__subtitle">Recent posts<\/h3>$/;"	j
 Recent posts	_site/blog/page8/index.html	/^<h3 class="archive__subtitle">Recent posts<\/h3>$/;"	j
 Recent posts	_site/blog/page9/index.html	/^<h3 class="archive__subtitle">Recent posts<\/h3>$/;"	j
+Recently in my life	_site/PhD/recently-in-my-life/index.html	/^<\/h1>$/;"	h
 Recently in my life	_site/blog/page3/index.html	/^    <\/h2>$/;"	i
 Recently in my life	_site/categories/index.html	/^    <\/h2>$/;"	i
 Recently in my life	_site/posts/index.html	/^    <\/h2>$/;"	i
@@ -3006,6 +3009,7 @@ Skip links	_site/404.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;
 Skip links	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
 Skip links	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
 Skip links	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
+Skip links	_site/PhD/recently-in-my-life/index.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
 Skip links	_site/about/contact/index.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
 Skip links	_site/about/index.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
 Skip links	_site/assets/css/LICENSE-SourceCode/index.html	/^  <h2 class="screen-reader-text">Skip links<\/h2>$/;"	i
@@ -3107,6 +3111,7 @@ Some Exciting Evolution of Marine Reptiles	_site/cv/index.html	/^    <\/h2>$/;"	
 Some palaeoart that colour my walls	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^    <\/h2>$/;"	i
 Some palaeoart that colour my walls	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^    <\/h2>$/;"	i
 Some palaeoart that colour my walls	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^    <\/h2>$/;"	i
+Some palaeoart that colour my walls	_site/PhD/recently-in-my-life/index.html	/^    <\/h2>$/;"	i
 Some palaeoart that colour my walls	_site/blog/index.html	/^    <\/h2>$/;"	i
 Some palaeoart that colour my walls	_site/brevis/brevis-what-on-earth-is-palaeontology/index.html	/^    <\/h2>$/;"	i
 Some palaeoart that colour my walls	_site/categories/index.html	/^    <\/h2>$/;"	i
@@ -3189,6 +3194,7 @@ The ichthyosaurian roundup of last year	_site/tags/index.html	/^    <\/h2>$/;"	i
 The joy of a hairline sans	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^    <\/h2>$/;"	i
 The joy of a hairline sans	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^    <\/h2>$/;"	i
 The joy of a hairline sans	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^    <\/h2>$/;"	i
+The joy of a hairline sans	_site/PhD/recently-in-my-life/index.html	/^    <\/h2>$/;"	i
 The joy of a hairline sans	_site/blog/index.html	/^    <\/h2>$/;"	i
 The joy of a hairline sans	_site/brevis/brevis-what-on-earth-is-palaeontology/index.html	/^    <\/h2>$/;"	i
 The joy of a hairline sans	_site/categories/index.html	/^    <\/h2>$/;"	i
@@ -3263,6 +3269,7 @@ Tween	_site/assets/js/vendor/jquery/jquery-3.5.1.js	/^function Tween( elem, opti
 Two spaces or not two spaces?	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^    <\/h2>$/;"	i
 Two spaces or not two spaces?	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^    <\/h2>$/;"	i
 Two spaces or not two spaces?	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^    <\/h2>$/;"	i
+Two spaces or not two spaces?	_site/PhD/recently-in-my-life/index.html	/^    <\/h2>$/;"	i
 Two spaces or not two spaces?	_site/blog/index.html	/^    <\/h2>$/;"	i
 Two spaces or not two spaces?	_site/brevis/brevis-what-on-earth-is-palaeontology/index.html	/^    <\/h2>$/;"	i
 Two spaces or not two spaces?	_site/categories/index.html	/^    <\/h2>$/;"	i
@@ -3885,6 +3892,7 @@ footer	_site/404.html	/^    <div id="footer" class="page__footer">$/;"	I
 footer	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^    <div id="footer" class="page__footer">$/;"	I
 footer	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^    <div id="footer" class="page__footer">$/;"	I
 footer	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^    <div id="footer" class="page__footer">$/;"	I
+footer	_site/PhD/recently-in-my-life/index.html	/^    <div id="footer" class="page__footer">$/;"	I
 footer	_site/about/contact/index.html	/^    <div id="footer" class="page__footer">$/;"	I
 footer	_site/about/index.html	/^    <div id="footer" class="page__footer">$/;"	I
 footer	_site/assets/css/LICENSE-SourceCode/index.html	/^    <div id="footer" class="page__footer">$/;"	I
@@ -4314,6 +4322,7 @@ main	_site/404.html	/^<div id="main" role="main">$/;"	I
 main	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^<div id="main" role="main">$/;"	I
 main	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^<div id="main" role="main">$/;"	I
 main	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^<div id="main" role="main">$/;"	I
+main	_site/PhD/recently-in-my-life/index.html	/^<div id="main" role="main">$/;"	I
 main	_site/about/contact/index.html	/^<div id="main" role="main">$/;"	I
 main	_site/about/index.html	/^<div id="main" role="main">$/;"	I
 main	_site/assets/css/main.css	/^*\/.mfp-counter{font-family:"Source Serif Variable",serif}.mfp-bg{top:0;left:0;width:100%;height/;"	s
@@ -4580,6 +4589,7 @@ page-title	_site/404.html	/^          <h1 id="page-title" class="page__title" it
 page-title	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^          <h1 id="page-title" class="page__title" itemprop="headline">My PhD plans: Part 1: a ne/;"	I
 page-title	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^          <h1 id="page-title" class="page__title" itemprop="headline">My PhD: Part 2: the ichthy/;"	I
 page-title	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^          <h1 id="page-title" class="page__title" itemprop="headline">My PhD: Part 3: the return/;"	I
+page-title	_site/PhD/recently-in-my-life/index.html	/^          <h1 id="page-title" class="page__title" itemprop="headline">Recently in my life$/;"	I
 page-title	_site/about/contact/index.html	/^          <h1 id="page-title" class="page__title" itemprop="headline">Contact$/;"	I
 page-title	_site/about/index.html	/^      <h1 id="page-title" class="page__title">About Me<\/h1>$/;"	I
 page-title	_site/blog/index.html	/^      <h1 id="page-title" class="page__title"><\/h1>$/;"	I
@@ -4899,6 +4909,7 @@ site-nav	_site/404.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
 site-nav	_site/PhD/my-phd-part-1-a-new-ichthyosaur.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
 site-nav	_site/PhD/my-phd-part-2-the-ichthyosaurs-strike-back.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
 site-nav	_site/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
+site-nav	_site/PhD/recently-in-my-life/index.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
 site-nav	_site/about/contact/index.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
 site-nav	_site/about/index.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
 site-nav	_site/assets/css/LICENSE-SourceCode/index.html	/^      <nav id="site-nav" class="greedy-nav">$/;"	I
