@@ -6,3 +6,6 @@ _site/
 .DS_Store
 
 tags
+
+.ruby-version
+
