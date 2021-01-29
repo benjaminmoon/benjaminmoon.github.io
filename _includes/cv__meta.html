@@ -30,7 +30,7 @@
     {% if document.pub-type == "paper" %}
       <i class="fa fa-fw fa-file" aria-hidden="true"></i> Journal article 
     {% elsif document.pub-type == "conference" %}
-      <i class="fa fa-fw fa-desktop" aria-hidden="true"></i> Conference talk or document.r
+      <i class="fa fa-fw fa-desktop" aria-hidden="true"></i> Conference talk or poster
     {% elsif document.pub-type == "talk" %}
       <i class="far fa-fw fa-users" aria-hidden="true"></i> Invited talk
     {% elsif document.pub-type == "teaching" %}
@@ -62,6 +62,14 @@
   {% if document.doi %}
     <span class="page__meta-readtime">
         doi:<a href="https://doi.org/{{ document.doi }}">{{ document.doi }}</a>
+    </span>
+  {% endif %}
+
+  {% if document.pub-type == "conference" and document.city %}<span class="page__meta-sep"></span>{% endif %}
+
+  {% if document.city %}
+    <span class="page__meta-readtime">
+        <em>{{ document.city }}</em>
     </span>
   {% endif %}
 </p>
