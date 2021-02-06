@@ -2,9 +2,8 @@
 layout: single
 ---
 
-{% if page.pub-type == "paper" or page.pub-type == "book" %}
+{% if page.pub-type == "paper" or page.pub-type == "book" or page.pub-type == "conference" %}
   <p class="notice--info">
-    <em>Citation:</em>
     {{ page.pub-authors }}
     {{ page.end-date | date: "%Y" }}
     {{ page.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}.
@@ -23,6 +22,9 @@ layout: single
     {% endif %}
     {% if page.pub-type == "paper" and page.pages %}
       {{ page.pages | rstrip }}
+    {% endif %}
+    {% if page.city %}
+      ({{ page.city | rstrip }})
     {% endif %}
     {% if page.doi %}
       doi:<a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
