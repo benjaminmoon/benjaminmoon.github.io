@@ -26,7 +26,7 @@ and first results of a cladistic morphospace for ichthyosaur evolution at the
 species level. These later evolved into two papers (Moon 2019; Moon & Stubbs
 2020).
 
-It was even more memorable as the meeting occurred around the 25th anniversary of the
+It was even more memorable as the meeting occurred around the 25^th^ anniversary of the
 fall of the Berlin Wall, so the group of us visited some of the ceremonies and
 the line of lights placed along the route of the wall.
 
