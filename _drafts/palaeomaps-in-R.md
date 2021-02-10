@@ -10,30 +10,37 @@ toc: true
 ---
 
 Just before Christmas I was looking at data from the Palaeobiology Database
-(PBDB) and wanted to draw a map of occurrences. Previously I'd made maps of
-Jurassic ichthyosaur occurrences that appeared in Moon & Kirton (2018, Fig. 46),
-but made these by hand, tracing maps produced by Blakey (2008, 2014), and then
-overlaying palaeo-positions of various Middle and Late Jurassic deposits. As I
-remember the tracing itself was not too time consuming, although wasn't the most
-interesting thing I've ever done. With the recent work I wanted to create maps
-with many more occurrence points, and potentially several maps covering a series
-of time slices as the position of the continents change. This would definitely
-benefit from a more automated method rather than me getting annoyed with
-Affinity Designer while tracing several maps.
+(PBDB) and wanted to draw a map of occurrences. I'd made maps of Jurassic
+ichthyosaurs before that appeared in Moon & Kirton (2018, Fig. 46). I made these
+by hand, tracing maps produced by Blakey (2008, 2014) and then overlaying
+palaeo-positions of various deposits. As I remember the tracing itself was not
+too time consuming, but wasn't the most interesting thing I've ever done.
 
-Fortunately there are ways to do this in R, which is the primary language that I
-use, through some code and packages that are readily available. The few things
-that you need are:
+With my recent work, I wanted to create maps with many more occurrence points,
+showing a series of time slices as the position of the continents change. This
+would definitely benefit from a more automated method rather than me getting
+annoyed with Affinity Designer while tracing several maps.
+
+Fortunately there are ways to do this in R through some code and packages that
+are readily available. Here's a little intro to how I've made a map with data
+from the PBDB, including:
+
+* plotting continent and coastal outlines
+* adding points to show occurrence locations
+* separating different groups into subplots.
+
+Let's dive in.
+
+## Data gathering ##
+
+The few things that we need are:
 
 * Occurrence data from the Palaeobiology Database
 * Palaeogeographic outlines of the continents at a desired time.
 
-
-## Data gathering ##
-
 ### Occurrence data ###
 
-The Palaeobiology Database has a [Web API](https://paleobiodb.org/data1.2/),
+The PBDB has a [Web API](https://paleobiodb.org/data1.2/),
 which I find the easiest to access and download data from. There is also the
 package [ropensci/paleobiodb](https://github.com/ropensci/paleobioDB), but I
 haven't used it  myself.
@@ -42,11 +49,13 @@ To download occurrences of ichthyosaurs from the Toarcian
 (182.7–174.1 Ma), I used the following code in R.
 
 ```r
+library(tidyverse)
+
 pbdb_url <-
   "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Ichthyosauromorpha&interval=Toarcian&show=paleoloc"
 
 occ_toarcian_ichthyosaurs <-
-  read.csv(pbdb_url)
+  read_csv(pbdb_url)
 ```
 
 ### Palaeogeographic continent outlines ###
@@ -200,3 +209,17 @@ add in maps for multiple times and occurrences of different taxa for a project
 that – perhaps surprisingly – doesn't include ichthyosaurs.
 
 I hope that you have a happy beginning to 2021.
+
+## References ##
+
+Blakey, R. 2008. Gondwana paleogeography from assembly to breakup—a 500 m.y.
+odyssey. <i>Special Paper 441: Resolving the Late Paleozoic Ice Age in Time and
+Space</i> 441: 1–28. [doi:10.1130/2008.2441(01)](https://doi.org/10.1130/2008.2441(01))
+
+Blakey, R. 2014. Library of paleogeography. <https://jan.ucc.nau.edu/~rcb7/>
+
+Moon, B.C. and Kirton, A.M. 2018. Ichthyosaurs of the British Middle and Upper
+Jurassic. Part 2, <i>Brachypterygius, Nannopterygius, Macropterygius,</i> and
+<i>Taxa Invalida</i>. <i>Monograph of the Palaeontographical Society</i> 172
+(650): 85–176.
+[doi:10.1080/02693445.2018.1468139](https://doi.org/10.1080/02693445.2018.1468139)
