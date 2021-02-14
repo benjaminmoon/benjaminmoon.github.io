@@ -6,8 +6,9 @@ tags:
     - R
     - coding
     - ichthyosaurs
-toc: true
 layout: long_post
+toc: true
+toc_sticky: true
 ---
 
 At the end of last year, I was looking at data from the [Palaeobiology
