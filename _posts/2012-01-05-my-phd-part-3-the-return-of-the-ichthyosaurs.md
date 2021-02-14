@@ -13,6 +13,7 @@ tags:
   - osteology
 toc: true
 permalink: "/PhD/my-phd-part-3-the-return-of-the-ichthyosaurs"
+layout: long_post
 ---
 In this, the final of my original trilogy describing my planned studies, I will
 talk about the ‘spin-offs’ from looking at the British genera and phylogeny. 

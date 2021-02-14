@@ -1,20 +1,25 @@
 ---
+last_modified_at: 2021-02-14
 title: "Brunel Sinfonia Lockdown Projects"
 category: music
 tags:
     - orchestra
     - lockdown
     - tuba
-classes: wide
+toc: true
 ---
 
 In my non-working time I'm a musician – playing tuba in a few local orchestras and wind bands, and piano for myself in my room. Of course playing together in groups has not been possible for several months now, but one of Bristol's amateur orchestras – [Brunel Sinfonia](https://www.brunelsinfonia.org.uk) – has been able to organise _lockdown projects_ bringing us together virtually to play some pieces you can see on YouTube. Here are links to a few of these videos.
 
-## _Danse Macabre,_ Camille Saint-Saëns
+### _Love Actually,_ Craig Armstrong (arr. Tina Mehta) ###
+
+{% include video id="IZIbF-HM_Lo" provider="youtube" %}
+
+### _Danse Macabre,_ Camille Saint-Saëns
 
 {% include video id="O2gxnAAfwok" provider="youtube" %}
 
-## _Theme from ET,_ John Williams
+### _Theme from ET,_ John Williams
 
 {% include video id="WzIxdsdhLiI" provider="youtube" %}
 

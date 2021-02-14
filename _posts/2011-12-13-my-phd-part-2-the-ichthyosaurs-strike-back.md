@@ -11,6 +11,7 @@ tags:
   - anatomy
 toc: true
 permalink: "/PhD/my-phd-part-2-the-ichthyosaurs-strike-back"
+layout: long_post
 ---
 In the last post, I talked about the British Late Jurassic ichthyosaurs.  This
 will make up the first part of my thesis.  The other main part will look at

@@ -28,8 +28,7 @@ during most of my waking hours.
 
 {% include feature_row %}
 
-![image-right](/assets/images/me-at-nordlingen.jpg)
-{: .align-right}
+![image-right](/assets/images/me-at-nordlingen.jpg){: .align-right}
 
 My name is Ben and welcome to my personal website. Have a look around.
 

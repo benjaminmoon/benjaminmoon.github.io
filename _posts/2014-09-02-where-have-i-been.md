@@ -9,6 +9,7 @@ tags:
   - tools
   - writing
 toc: true
+layout: long_post
 ---
 So … hi there. How have things been with you? I’ve been away from this blog for
 a while, but don’t worry!: I haven’t been idle … not all of the time anyway.

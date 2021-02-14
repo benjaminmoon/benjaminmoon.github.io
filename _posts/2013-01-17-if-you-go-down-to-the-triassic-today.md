@@ -19,6 +19,7 @@ tags:
   - science
   - Triassic
 toc: true
+layout: long_post
 ---
 
 (Well last week actually.)

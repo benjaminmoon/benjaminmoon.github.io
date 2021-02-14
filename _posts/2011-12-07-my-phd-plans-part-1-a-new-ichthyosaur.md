@@ -9,6 +9,7 @@ tags:
   - osteology
 toc: true
 permalink: "/PhD/my-phd-part-1-a-new-ichthyosaur"
+layout: long_post
 ---
 Well, having given a presentation on the plans for my PhD, I feel as though
 I can now share it with the world.  That and I’ve had agreement on what I plan
