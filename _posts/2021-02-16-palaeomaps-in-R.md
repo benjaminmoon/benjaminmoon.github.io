@@ -1,4 +1,5 @@
 ---
+last_modified_date: 2021-02-16
 title: "Building Palaeogeographic Maps in R"
 category: palaeontology
 tags:
@@ -6,9 +7,7 @@ tags:
     - R
     - coding
     - ichthyosaurs
-layout: long_post
 toc: true
-toc_sticky: true
 ---
 
 At the end of last year, I was looking at data from the [Palaeobiology
@@ -43,7 +42,7 @@ The few things that we need are:
 * Palaeogeographic outlines of the continents at a desired time.
 
 Fossil occurrences
-:   Finds of species at a single time and place. In the palaeobiology database
+:   Finds of species at a single time and place. In the Palaeobiology Database
 these are linked to _collections,_ which are groups of fossil finds from a
 single effort, like a single fossil dig.
 
@@ -52,8 +51,8 @@ Palaeogeography
 changing with continental drift and sea level change.
 
 Palaeocoordinate
-:   The ancient position of modern fossil find locations. Modern locations have
-a latitude and longitude value, while palaeocoordinates have a palaeolatitude
+:   The ancient position of modern locations. Modern locations have
+a latitude and longitude value, while palaeocoordinates have palaeolatitude
 and palaeolongitude. These can be reconstructed using the relative movement of
 continental plates from the present back through the past.
 
@@ -119,15 +118,20 @@ more time-consuming, having to download lots of data, or restrict you if you try
 to grab too much too quickly.
 
 Incidentally, 'GOLONKA' in the URLs above refers to the Golonka (2007) model  of
-continental movement (Verard 2019).
+continental movement (Vérard 2019).
 
 
 ### Plotting the map ###
 
-To plot the map data, I've found that using ggplot is the most convenient as
+To plot the map data, I found that using ggplot is the most convenient as
 this provides the `geom_map` function exactly for this purpose. I modified the
 following code from the gplatesr vignette to plot the base map, ready to add
 points later.
+
+Here, I use `geom_map` twice: first to add the position of the continental
+regions in grey, then to overlay outlines of the modern coastlines. The extra
+`geom_rect`, `coord_map` and `theme_map` lines change the look to make the map a
+little more appealing.
 
 ```r
 library(broom)
@@ -144,7 +148,7 @@ toarcian_map <-
     geom_map(
       data = toarcian_polygons, map = toarcian_polygons,
       aes(x = long, y = lat, map_id = id),
-      size = 0.15, fill = "#d8d8d6"
+      size = 0.15, fill = "#d8d8d8"
     ) +
     geom_map(
       data = toarcian_coastlines, map = toarcian_coastlines,
@@ -161,21 +165,20 @@ toarcian_map <-
 
 toarcian_map +
   labs(
-    title = "Palaeogeographic map of continental plate (grey) arrangement\nin the
-    Toarcian (182 Ma) with modern coastlines outlined in khaki."
+    title = "Palaeogeographical map of continental plate (grey) arrangement\nin the Toarcian (182 Ma) with modern coastlines outlined above."
   )
 ```
 
 {% include figure
     image_path="/assets/images/toarcian_palaeogeographic_map.svg"
     alt="Palaeogeographical map of the Toarcian"
-    caption="Palaeogeographic map of continental plate (grey) arrangement in the
-    Toarcian (182 Ma) with modern coastlines outlined in khaki."
+    caption="Palaeogeographical map of continental plate (grey) arrangement in the Toarcian (182 Ma) with modern coastlines outlined above."
 %}
 
-We've managed to get a good map. Aside from a few colour changes, from personal
+It's a decent map. Aside from a few colour changes, from personal
 preference, this should cover most of what we want from a base layer. The early
-Toarcian is at the earlier end of the separation of Pangaea.
+Toarcian is at the earlier end of the separation of Pangaea – the Atlantic has
+only just started to open.
 
 ### Plotting occurrence locations ###
 
@@ -191,7 +194,7 @@ toarcian_map +
     aes(x = paleolng, y = paleolat)
   ) +
   labs(
-    title = "Palaeogeographic map of ichthyosaur occurrences\nin the Toarcian (182 Ma)."
+    title = "Palaeogeographical map of ichthyosaur occurrences\nin the Toarcian (182 Ma)."
   )
 ```
 
@@ -253,6 +256,10 @@ Blakey, R. 2014. Library of paleogeography. <https://jan.ucc.nau.edu/~rcb7/>
 Golonka, J. 2007. Phanerozoic paleoenvironment and paleolithofacies maps:
 Mesozoic. _Geologia_ 33: 211–264.
 
+Matthews, K.J., Maloney, K.T., Zahirovic, S., Williams, S.E., Seton, M. and
+Müller, R.D. 2016. Global plate boundary evolution and kinematics since the late
+Paleozoic. <i>Global and Planetary Change</i> 146: 226–250. [doi:10.1016/j.gloplacha.2016.10.002](https://doi.org/10.1016/j.gloplacha.2016.10.002)
+
 Moon, B.C. and Kirton, A.M. 2018. Ichthyosaurs of the British Middle and Upper
 Jurassic. Part 2, <i>Brachypterygius, Nannopterygius, Macropterygius,</i> and
 <i>Taxa Invalida</i>. <i>Monograph of the Palaeontographical Society</i> 172
@@ -261,5 +268,4 @@ Jurassic. Part 2, <i>Brachypterygius, Nannopterygius, Macropterygius,</i> and
 
 Vérard, C. 2019. Plate tectonic modelling: review and perspectives. _Geological
 Magazine_ 156: 208–241. [doi:10.1017/S0016756817001030](https://doi.org/10.1017/S0016756817001030)
-
 
