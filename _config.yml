@@ -47,21 +47,24 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "jXyqD3s7CdPkOUWVnpy5LGow0XUauSkeoPoOI-Um6BY"
+bing_site_verification   : "0C7B521A96071E423B15921C6208078C"
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "6a0bf2da80196f9b8235f3c4a2a934e27224ae09"
 
 # Social Sharing
 twitter:
   username               : moononthebones
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/bio-BMoon.jpeg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/moononthebones"
+    - "https://research-information.bris.ac.uk/en/persons/benjamin-c-moon"
+    - "https://www.linkedin.com/in/ben-moon-a36259192/"
 
 # Analytics
 analytics:
