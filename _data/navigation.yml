@@ -6,3 +6,36 @@ main:
     url: /posts/
   - title: "Research"
     url: /research/
+
+palaeomap:
+    - title: Introduction
+      children:
+          - title: "Running the Code"
+            url: /palaeomap/01-introduction/
+          - title: "Palaeogeographical Maps"
+            url: /palaeomap/02-palaeogeographical-maps/
+    - title: "GPlates Web Service"
+      children:
+          - title: "Previous R Packages"
+            url: /palaeomap/03-automatic-map-plotting-in-r/
+          - title: "GPlates Web Service"
+            url: /palaeomap/04-gplates-web-service/
+    - title: "True Palaeogeographical Maps"
+      children:
+          - title: "Ancient Land Outlines"
+            url: /palaeomap/05-true-palaeogeographical-outlines/
+          - title: "Export Outlines from GPlates"
+            url: /palaeomap/06-export-from-gplates/
+          - title: "Plot Outlines in R"
+            url: /palaeomap/07-plot-maps-in-R/
+    - title: "adding Fossil Occurrences"
+      children:
+          - title: "Getting Fossil Occurrences"
+            url: /palaeomap/08-getting-occurrence-data/
+          - title: "Plotting Occurrence Palaeolocations"
+            url: /palaeomap/09-plotting-occurrence-data/
+    - title: "Exercises"
+      children:
+          - title: "Suggested Solutions to Exercises"
+            url: /palaeomap/10-suggested-solutions-to-exercises/
+
