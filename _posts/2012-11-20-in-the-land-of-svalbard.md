@@ -21,7 +21,7 @@ tags:
   - scientific names of organisms
   - svalbard norway
   - vertebrate palaeontology
-toc: true
+layout: long_post
 ---
 
 ## Introduction

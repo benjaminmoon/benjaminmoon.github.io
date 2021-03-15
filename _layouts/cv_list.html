@@ -1,40 +1,32 @@
 ---
 layout: archive
 ---
+{% assign cvInYear = site.cv | group_by_exp: 'pos', 'pos.end-date | date: "%Y" | replace: "Present", "2030"' | sort: 'name' | reverse %}
 
 {{ content }}
 
 <h2>Curriculum Vitae</h2>
 
 <ul class="taxonomy__index">
-  {% assign cvInYear = site.cv | group_by_exp: 'pos', 'pos.start-date | date: "%Y"' | reverse %}
   {% for year in cvInYear %}
     <li>
-      <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      <a href="#{{ year.name | replace: '2030', 'Present' }}">
+        <strong>{{ year.name | replace: '2030', 'Present' }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
       </a>
     </li>
   {% endfor %}
 </ul>
 
-{% assign cvByYear = site.cv | group_by_exp: 'pos', 'pos.start-date | date: "%Y"' | reverse %}
-{% for year in cvByYear %}
-  <section id="{{ year.name }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ year.name }}</h2>
+{% for year in cvInYear %}
+  <section id="{{ year.name | replace: '2030', 'Present' }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ year.name | replace: '2030', 'Present' }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% for post in year.items %}
-        <p>
-          {% if post.end-date %}
-            {{ post.start-date | date: "%Y" }}–{{ post.end-date | date: "%Y" }}:
-          {% else %}
-            {{ post.start-date | date: "%b" }}:
-          {% endif %}
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>,
-          <em>{{ post.institution | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</em>
-        </p>
+      {% assign revYearItems = year.items | sort: "end-date" | reverse %}
+      {% for post in revYearItems %}
+        {% include cv-single.html type=entries_layout %}
       {% endfor %}
     </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
 
-<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>

@@ -35,8 +35,7 @@ during most of my waking hours.
 
 {% include feature_row %}
 
-![image-right](/assets/images/me-at-nordlingen.jpg)
-{: .align-right}
+![image-right](/assets/images/me-at-nordlingen.jpg){: .align-right}
 
 My name is Ben and welcome to my personal website. Have a look around.
 
@@ -47,7 +46,7 @@ It also reminds me of dolphins, although not in place that I'd prefer to see
 them, and I like dolphins, the sea, and the wondrous variety of critters that
 live there.
 
-_On the right, you can see me lounging at the top of the church tower in
+_In the photo, you can see me lounging at the top of the church tower in
 Nordlingen, Germany, from a trip that I made there in 2017. The photo was
 taken by my partner._
 

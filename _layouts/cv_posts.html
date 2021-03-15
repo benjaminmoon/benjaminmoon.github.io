@@ -2,28 +2,35 @@
 layout: single
 ---
 
-<p>
-  {% if page.end-date %}
-    {{ page.start-date | date: "%b %Y" }}–{{ page.end-date | date: "%b %Y" }}
-  {% else %}
-    {{ page.start-date | date: "%b %Y" }}
-  {% endif %}
-  <em>{{ page.institution }}</em>
-</p>
-{% if page.pub-type == "paper" %}
+{% if page.pub-type == "paper" or page.pub-type == "book" or page.pub-type == "conference" %}
   <p class="notice--info">
     {{ page.pub-authors }}
-    {{ page.start-date | date: "%Y" }}
-    {{ page.title }}.
-    <em>{{ page.institution }}</em>
-    {% if page.volume %}
-      <b>{{ page.volume }}</b>:
+    {{ page.end-date | date: "%Y" }}
+    {{ page.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}.
+    {% if page.chapter %}
+      Ch. {{ page.chapter }}.
     {% endif %}
-    {% if page.pages %}
-      {{ page.pages }}
+    {% if page.pub-type == "book" and page.pages %}
+      {{ page.pages | rstrip }}.
+    {% endif %}
+    {% if page.editors %}
+      In {{ page.editors }}
+    {% endif %}
+    <em>{{ page.institution | rstrip }}</em>
+    {% if page.volume %}
+      <b>{{ page.volume | rstrip }}</b>:
+    {% endif %}
+    {% if page.pub-type == "paper" and page.pages %}
+      {{ page.pages | rstrip }}
+    {% endif %}
+    {% if page.city %}
+      ({{ page.city | rstrip }})
     {% endif %}
     {% if page.doi %}
       doi:<a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
+    {% endif %}
+    {% if page.isbn %}
+      <font style="font-feature-settings: 'c2sc'">ISBN</font>:{{ page.isbn }}
     {% endif %}
   </p>
 {% endif %}

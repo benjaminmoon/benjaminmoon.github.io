@@ -15,6 +15,7 @@ tags:
   - Science outreach
   - Scientist
 toc: true
+layout: long_post
 ---
 
 This past month I’ve been thinking a bit about public outreach in

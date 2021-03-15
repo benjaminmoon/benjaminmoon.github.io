@@ -4,10 +4,70 @@
 
 @charset "utf-8";
 
+@font-face{
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/WOFF2/VAR/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
+         url('../fonts/WOFF/VAR/SourceSansVariable-Roman.ttf.woff') format('woff'),
+         url('../fonts/VAR/SourceSansVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/WOFF2/VAR/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
+         url('../fonts/WOFF/VAR/SourceSansVariable-Italic.ttf.woff') format('woff'),
+         url('../fonts/VAR/SourceSansVariable-Italic.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Serif Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/WOFF2/VAR/SourceSerifVariable-Roman.ttf.woff2') format('woff2'),
+         url('../fonts/WOFF/VAR/SourceSerifVariable-Roman.ttf.woff') format('woff'),
+         url('../fonts/VAR/SourceSerifVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Serif Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/WOFF2/VAR/SourceSerifVariable-Italic.ttf.woff2') format('woff2'),
+         url('../fonts/WOFF/VAR/SourceSerifVariable-Italic.ttf.woff') format('woff'),
+         url('../fonts/VAR/SourceSerifVariable-Italic.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/WOFF2/VAR/SourceCodeVariable-Roman.ttf.woff2') format('woff2'),
+         url('../fonts/WOFF/VAR/SourceCodeVariable-Roman.ttf.woff') format('woff'),
+         url('../fonts/VAR/SourceCodeVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/WOFF2/VAR/SourceCodeVariable-Italic.ttf.woff2') format('woff2'),
+         url('../fonts/WOFF/VAR/SourceCodeVariable-Italic.ttf.woff') format('woff'),
+         url('../fonts/VAR/SourceCodeVariable-Italic.ttf') format('truetype');
+}
+
 /* custom typefaces */
-$serif: source-serif-pro, serif !default;
-$sans-serif: source-sans-pro, sans-serif !default;
-$monospace: source-code-pro, monospace !default;
+$serif: 'Source Serif Variable', serif !default;
+$sans-serif: 'Source Sans Variable', sans-serif !default;
+$monospace: 'Source Code Variable', monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -16,7 +76,8 @@ $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 /* change global typefaces */
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
-$caption-font-family: $serif !default;
+$longtext-font-family: $serif !default;
+$caption-font-family: $sans-serif !default;
 
 /* opentype features */
 body {
@@ -26,11 +87,33 @@ body {
   font-feature-settings: "onum", "pnum";
 }
 
+/* serif font in long-form (content) text */
+.long__text {
+    font-family: $longtext-font-family;
+}
+
 /* sharing colours */
 $reddit-color: #ff4500 !default;
+
+/* syntax highlighting in Solarized Dark */
+$base00: #002b36 !default;
+$base01: #073642 !default;
+$base02: #586e75 !default;
+$base03: #657b83 !default;
+$base04: #839496 !default;
+$base05: #93a1a1 !default;
+$base06: #eee8d5 !default;
+$base07: #fdf6e3 !default;
+$base08: #b58900 !default;
+$base09: #6c71c4 !default;
+$base0a: #dc322f !default;
+$base0b: #2aa198 !default;
+$base0c: #cb4b16 !default;
+$base0d: #268bd2 !default;
+$base0e: #d33682 !default;
+$base0f: #859900 !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "minimal-mistakes/buttons.scss";
 @import "academicons.css";
-
