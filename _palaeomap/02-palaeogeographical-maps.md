@@ -27,7 +27,7 @@ A few examples of groups that have made efforts to create palaeogeographical map
 {% include video id="315907106" provider="vimeo" %}
 
 {% include figure
-    image_path="http://www.scotese.com/images/152.jpg"
+    image_path="http://scotese.com/images/152.jpg"
     alt="Palaeogeography of the Late Jurassic"
     caption="Palaeogeography of the Late Jurassic, as reconstructed at _Palaeomap Project._"
 %}

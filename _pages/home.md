@@ -24,7 +24,7 @@ feature_row:
   - image_path: "assets/images/teaser-S_triscissus-skull-BRLSI-M1409.jpg"
     alt: "Research interests"
     title: "Research interests"
-    excerpt: "Learn about the methods that I use and the critters I research"
+    excerpt: "Learn about the methods that I use and the critters I study"
     url: /research/
     btn_class: "btn--primary"
     btn_label: "My research"
