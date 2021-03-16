@@ -20,13 +20,13 @@ The Cao _et al._ (2017) reconstructions aren't available from GWS, but can be ex
 3. _Begin Export_
 
 {% include figure
-    image_path="/assets/images/palaeomap_workshop/gplates_export1.png"
+    image_path="/assets/images/palaeomap_workshop/gplates_export1.webp"
     alt="Exporting from GPlates"
     caption="Export options from GPlates."
 %}
 
 {% include figure
-    image_path="/assets/images/palaeomap_workshop/gplates_export2.png"
+    image_path="/assets/images/palaeomap_workshop/gplates_export2.webp"
     alt="Layer selection in GPlates"
     caption="Layer selection in GPlates export. Select Reconstructed geometries, OGR-GMT, and multiple layers."
 %}

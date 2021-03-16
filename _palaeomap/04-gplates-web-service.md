@@ -67,6 +67,11 @@ ggplot() +
   theme_map()
 ```
 
+{% include figure image_path="/assets/images/palaeomap_workshop/gws_plot.webp"
+    alt="Plotting Late Jurassic geography from the GPlates Web Service"
+    caption="**Outlines of continental plates in the Kimmeridgian (155 Ma).** Plates in the continental model are shaded grey, while the modern coastlines are outlined. Data downloaded from the GPlates web service. "
+%}
+
 When plotting, the data are added as layers, each plotting over the other: plate polygons at the bottom then coastlines on top. I've also set the map projection to be [Mollweide](https://en.wikipedia.org/wiki/Mollweide_projection), but you can play with this and change it to others included in the _mapproj_ package function [`mapproject`](https://rdrr.io/cran/mapproj/man/mapproject.html). Options include `"Gilbert"`, `"fisheye"`, and `"hex"`. (Use, for example, `coord_map("fisheye", n = 0.7)` to add extra arguments.)
 
 Additionally I've added a border (`map_border()`, in the `functions` folder) and used a basic theme (`theme_map()`) to get a plain background.

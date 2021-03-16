@@ -41,6 +41,12 @@ map_plot <-
 map_plot
 ```
 
+{% include figure
+    image_path="/assets/images/palaeomap_workshop/plot_base_map.webp"
+    alt="Palaeogeographical map of the Late Jurassic"
+    caption="**Palaeogeography in the Kimmeridgian (155 Ma).** Palaeogeographical reconstruction from Cao et al. (2017). Lines of latitude indicate the locations of the Equator and Tropics (±23.5°)."
+%}
+
 You can try changing the look by modifying the projection (`coord_map`) and play about with some of the colours and markings by editing the function `palaeogeog_map_niceties` (`functions/palaeogeog_map_niceties.R`). You can also add further annotations (<https://ggplot2-book.org/annotations.html#annotations>) or
 change labels as you wish.
 
@@ -76,6 +82,11 @@ map_plot +
     size = 0.3
   )
 ```
+
+{% include figure image_path="/assets/images/palaeomap_workshop/plot_coast_outlines.webp"
+    alt="Modern coastline positions in the Late Jurassic"
+    caption="**Palaeogeography in the Kimmeridgian (155 Ma).** Outlines of modern coastlines (where known) are included in grey. Palaeogeographical reconstruction from Cao et al. (2017). Lines of latitude indicate the locations of the Equator and Tropics (±23.5°)."
+%}
 
 ### Exercises 3
 

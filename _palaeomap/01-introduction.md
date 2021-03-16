@@ -15,7 +15,7 @@ You can download and run this code directly on your machine, or follow along onl
 The Binder link will open in your browser in the RStudio interface. Open the file `palaeomap_labgroup.Rmd` from the file browser to get started.
 
 {% include figure
-    image_path="/assets/images/palaeomap_workshop/rstudio_window.png"
+    image_path="/assets/images/palaeomap_workshop/rstudio_window.webp"
     alt="The RStudio interface"
     caption="The RStudio interface similar to that you should see in Binder. Open the file `palaeomap_labgroup.nb.html` to get started."
 %}

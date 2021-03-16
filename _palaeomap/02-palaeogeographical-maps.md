@@ -41,13 +41,13 @@ GPlates (<https://www.gplates.org>) is free software that reconstructs the movem
 The download from GPlates provides lots of example data and projects to show the various plates, tectonics, plumes and other information that can be included. New data are being added as research is published. Try, for instance, the *DataBundleForNovices* project (`GplatesSampleData/DataBundleForNovices`) to see a combined model of modern continents and ocean spreading over the last 410 million years.
 
 {% include figure
-    image_path="/assets/images/palaeomap_workshop/gplates_window.png"
+    image_path="/assets/images/palaeomap_workshop/gplates_window.webp"
     alt="GPlates main window"
     caption="The main GPlates window showing the DataBundleForNovices loaded."
 %}
 
 {% include figure
-    image_path="/assets/images/palaeomap_workshop/gplates_layers.png"
+    image_path="/assets/images/palaeomap_workshop/gplates_layers.webp"
     alt="GPlates layers window"
     caption="Layers can be selected in this GPlates window to show and hide different features."
 %}

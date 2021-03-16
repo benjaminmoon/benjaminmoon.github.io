@@ -22,6 +22,12 @@ occ_plot <-
 occ_plot
 ```
 
+{% include figure
+    image_path="/assets/images/palaeomap_workshop/plot_occurrences.webp"
+    alt="Late Jurassic occurrences of ichthyosaurs"
+    caption="**Occurrences of ichthyosaurs from the Callovian–Tithonian.** Palaeogeographical map shows the distribution of land in the Kimmeridgian (155 Ma) reconstructed by Cao et al. (2017). Occurrences of Ichthyosauromorpha are from the Palaeobiology Database."
+%}
+
 ### Mismatch in locations
 
 The more eagle-eyed of you may notice that some of these _marine_ ichthyosaur occurrences are located resolutely in the middle of landmasses. There are a few possible reasons for that:
@@ -52,6 +58,12 @@ Conveniently, creating facets is as simple as adding a single line.
 occ_plot +
   facet_wrap(vars(accepted_rank), ncol = 2)
 ```
+
+{% include figure
+    image_path="/assets/images/palaeomap_workshop/facet_plot.webp"
+    alt="Facets separating accepted rank"
+    caption="**Occurrences of ichthyosaurs in the Callovian–Tithonian separated by identified rank.** Palaeogeographical maps shows distribution of land in the Kimmeridgian (155 Ma) reconstructed by Cao et al. (2017)."
+%}
 
 ### Exercises 4
 
