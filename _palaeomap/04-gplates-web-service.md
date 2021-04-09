@@ -3,6 +3,8 @@ last_modified_at: 2015-03-15
 title: GPlates Web Service
 ---
 
+GPlates Web Service (GWS) provides and API to download polygon outlines and do coordinate transformations.
+
 ### Downloading from GWS
 
 GWS can reconstruct the locations of points, coastlines, plates, paths, and features back into the past (<https://github.com/GPlates/gplates_web_service_doc/wiki>). It can also use a variety of different reconstructions. Most relevant is perhaps the Golonka (2007) model, which is often used for palaeocoordinate reconstruction in the Palaeobiology Database (PBDB).
@@ -92,3 +94,11 @@ We need to go to the next level: _true palaeogeographical reconstructions._ Fort
 2. Open an example of the OGR-GMT data from the GWS, either from the `data/GWS` folder or by downloading it. Can you see how the polygons are stored? How are different polygons identified?
 3. Now look at the tidied version in R, i.e. `kimmeridgian_coastlines` or `kimmeridgian_polygons`. By default this will only show the first 10 rows, but you can see more with, for example, `head(kimmeridgian_polygons, n = 50L)`. Can you see how the OGR-GMT data is transferred to this tidy format?
 4. Play around with the inputs to the plot above. How messy or colourful can you make this map? What options are there in `theme_map()`? (Hint: use `?theme_map` to see.)
+
+### References
+
+Cao, W., Zahirovic, S., Flament, N., Williams, S., Golonka, J. and Müller, R.D. 2017. Improving global paleogeography since the late Paleozoic using paleobiology. <i>Biogeosciences</i> 14 (23): 5425–5439. [doi:10.5194/bg-14-5425-2017](https://doi.org/10.5194/bg-14-5425-2017) 
+
+Golonka, J. 2007. Phanerozoic paleoenvironment and paleolithofacies maps: Mesozoic. <i>Geologia</i> 33 (2): 211–264.
+
+Matthews, K.J., Maloney, K.T., Zahirovic, S., Williams, S.E., Seton, M. and Müller, R.D. 2016. Global plate boundary evolution and kinematics since the late Paleozoic. <i>Global and Planetary Change</i> 146: 226–250. [doi:10.1016/j.gloplacha.2016.10.002](https://doi.org/10.1016/j.gloplacha.2016.10.002) 

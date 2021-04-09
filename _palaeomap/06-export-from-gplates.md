@@ -96,3 +96,7 @@ polygon_data <-
       fct_relevel(polygon_id, levels(polygon_id)[id_level_order])
   )
 ```
+
+### References
+
+Cao, W., Zahirovic, S., Flament, N., Williams, S., Golonka, J. and Müller, R.D. 2017. Improving global paleogeography since the late Paleozoic using paleobiology. <i>Biogeosciences</i> 14 (23): 5425–5439. [doi:10.5194/bg-14-5425-2017](https://doi.org/10.5194/bg-14-5425-2017) 

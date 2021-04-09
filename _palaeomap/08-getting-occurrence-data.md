@@ -1,6 +1,7 @@
 ---
 last_modified_at: 2021-03-15
 title: Getting Fossil Occurrence Data
+toc: false
 ---
 
 Now that you've spent lots of time making a pretty map, let's plot some fossils on top of it.

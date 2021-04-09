@@ -18,3 +18,6 @@ These reconstructions include four layers that have the separated palaeoenvironm
 
 These are given the abbreviations 'sm', 'l', 'm' and 'i'. It's worth noting that the way these are built means that the layers have to be plotted in the order above – shallow marine first, ice cap last. There are various areas that overlap (Australia especially) so the order of overlay becomes important in making the correct boundaries visible.
 
+### References
+
+Cao, W., Zahirovic, S., Flament, N., Williams, S., Golonka, J. and Müller, R.D. 2017. Improving global paleogeography since the late Paleozoic using paleobiology. <i>Biogeosciences</i> 14 (23): 5425–5439. [doi:10.5194/bg-14-5425-2017](https://doi.org/10.5194/bg-14-5425-2017) 

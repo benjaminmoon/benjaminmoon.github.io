@@ -18,7 +18,7 @@ Not all of the exercise questions have a single obvious solution, particularly o
 
 ### Exercises 2
 
-1. Have a look at the [GWS documentation](<https://github.com/GPlates/gplates_web_service_doc/wiki>). What address would you use to get reconstructed coastlines in the early Carboniferous using the @Matthews2016GPC model?
+1. Have a look at the [GWS documentation](<https://github.com/GPlates/gplates_web_service_doc/wiki>). What address would you use to get reconstructed coastlines in the early Carboniferous using the Matthews _et al._ (2016) model?
   - `"https://gws.gplates.org/reconstruct/coastlines/?&time=350&model=MATTHEWS2016_mantle_ref"`
   - You could also use `"MATTHEWS2016_pmag_ref"`. These are two different reconstruction methods.
 2. Open an example of the OGR-GMT data from the GWS, either from the `data/GWS` folder or by downloading it. Can you see how the polygons are stored? How are different polygons identified?
@@ -101,3 +101,7 @@ Not all of the exercise questions have a single obvious solution, particularly o
          )
    ex_occ_plot
    ```
+
+### References
+
+Matthews, K.J., Maloney, K.T., Zahirovic, S., Williams, S.E., Seton, M. and Müller, R.D. 2016. Global plate boundary evolution and kinematics since the late Paleozoic. <i>Global and Planetary Change</i> 146: 226–250. [doi:10.1016/j.gloplacha.2016.10.002](https://doi.org/10.1016/j.gloplacha.2016.10.002) 

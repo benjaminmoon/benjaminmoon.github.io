@@ -3,6 +3,8 @@ last_modified_at: 2021-03-15
 title: "Plotting Fossil Occurrence Palaeolocations"
 ---
 
+With some occurrences downloaded, can now add these to the map as points locations.
+
 ### Adding Occurrence Points
 
 With that all done, use the chunk below to add the occurrences onto the base map. These are plotted with `geom_point()`, which you may be familiar with, setting the _x_ and _y_ values to the palaeolongitude and palaeolatitude respectively.
@@ -38,7 +40,7 @@ The more eagle-eyed of you may notice that some of these _marine_ ichthyosaur oc
 
 These three are worth considering further. 
 
-_Incorrect palaeogeographical reconstruction_ is perhaps the most obvious answer: these reconstructions are difficult and there will always be some uncertainty with reconstructing the earth 155 million years ago. However, the method of @Cao2017Bb included palaeoenvironments reconstructed using PBDB data to improve confidence in the borders of sea and land. The palaeogeography should match the PBDB well then, particularly in well-studied and sampled periods and locations. There are, however, some parts that cannot certainly reconstructed because of a lack of data, rock availability, or accessibility.
+_Incorrect palaeogeographical reconstruction_ is perhaps the most obvious answer: these reconstructions are difficult and there will always be some uncertainty with reconstructing the earth 155 million years ago. However, the method of Cao _et al._ (2017) included palaeoenvironments reconstructed using PBDB data to improve confidence in the borders of sea and land. The palaeogeography should match the PBDB well then, particularly in well-studied and sampled periods and locations. There are, however, some parts that cannot certainly reconstructed because of a lack of data, rock availability, or accessibility.
 
 _Incorrect modern location_ may be the easiest to discount as localities tend to be spatially constrained and identifiable, even in older literature. This being the case, there should only be minor error in the locations of occurrences (~10s km).
 
@@ -74,3 +76,7 @@ occ_plot +
 4. It's also useful to separate out occurrences on the map, for instance, can you colour occurrences within the outside the tropics differently? say red in the tropics (±23.5°) and blue outside.
   - Hint: you can use the palaeocoordinates of the PBDB data to assign a group to each occurrence, use this to colour the points in `geom_point`.
   - Hint: use `scale_colour_discrete` to colour the points. See the code of `palaeogeog_map_niceties` (`functions/palaeogeog_map_niceties.R`) for an example of doing this.
+
+### References
+
+Cao, W., Zahirovic, S., Flament, N., Williams, S., Golonka, J. and Müller, R.D. 2017. Improving global paleogeography since the late Paleozoic using paleobiology. <i>Biogeosciences</i> 14 (23): 5425–5439. [doi:10.5194/bg-14-5425-2017](https://doi.org/10.5194/bg-14-5425-2017) 

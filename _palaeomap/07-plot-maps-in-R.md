@@ -95,3 +95,7 @@ map_plot +
     -   *ggplot* objects can have new layers added to them one-by-one by using `+`, but you can also combine them into function containing a list of layers that can be added in a single line.
     -   Hint: to change the colour of the map layers, use `fill`.
 3.  Can you try creating your own palaeogeographical map for your favourite time? This should be done on your own computer. Follow the instructions above to export data from GPlates then plot in R, making sure you change all the file and object names.
+
+### References
+
+Cao, W., Zahirovic, S., Flament, N., Williams, S., Golonka, J. and Müller, R.D. 2017. Improving global paleogeography since the late Paleozoic using paleobiology. <i>Biogeosciences</i> 14 (23): 5425–5439. [doi:10.5194/bg-14-5425-2017](https://doi.org/10.5194/bg-14-5425-2017) 

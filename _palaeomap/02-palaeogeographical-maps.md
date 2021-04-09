@@ -3,7 +3,9 @@ title: Palaeogeographical maps
 last_modified_at: 2021-03-15
 ---
 
-### Introduction
+Here I'll introduce some palaeogeographical maps, why they're useful, and start on the journey of how to plot them.
+
+### Palaeogeographical maps
 
 Maps are essential when discussing occurrences of taxa, both in the present and the past. Chuck in the issues associated with continental drift, and it can be difficult to place the wider context of some fossil occurrences. 'These marine fossils are found at the top of a mountain, but where were the oceans 150 million years ago?' Here are a couple of recent examples discussing the spread of occurrences, in this case Jurassic marine reptiles.
 
@@ -59,3 +61,11 @@ There is also a GPlates Web Service (GWS; <http://gws.gplates.org>) that can pro
 1.  Find an example of a palaeogeographical map for your favourite time period.
 2.  Have a look in the folder `GplatesSampleData` to see what other projects are included.
 
+### References
+
+Bradshaw, M.J., Cope, J.C.W., Cripps, D.W., Donovan, D.T., Howarth, M.K., Rawson, P.F., West, I.M. and Wimbledon, W.A. 1992. Jurassic. <i>Geological Society, London, Memoirs</i> 13 (1): 107–129. [doi:10.1144/GSL.MEM.1992.013.01.12](https://doi.org/10.1144/GSL.MEM.1992.013.01.12)
+
+Gao, T., Li, D.-Q., Li, L.-F. and Yang, J.-T. 2019. The first record of freshwater plesiosaurian from the Middle Jurassic of Gansu, NW China, with its implications to the local palaeobiogeography. <i>Journal of Palaeogeography</i>:8, 27. [doi:10.1186/s42501-019-0043-5](https://doi.org/10.1186/s42501-019-0043-5)
+
+Zverkov, N.G., Grigoriev, D.V. and Danilov, I.G. 2020. Early Jurassic palaeopolar marine reptiles of Siberia. <i>Geological Magazine</i>: 1–18. [doi:10.1017/S0016756820001351](https://doi.org/10.1017/S0016756820001351)
+ 
