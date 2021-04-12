@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-03-15
+last_modified_at: 2021-04-12
 title: Suggested Solutions to Exercises
 ---
 
