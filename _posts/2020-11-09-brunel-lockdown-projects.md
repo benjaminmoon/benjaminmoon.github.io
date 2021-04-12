@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-02-14
+last_modified_at: 2021-04-12
 title: "Brunel Sinfonia Lockdown Projects"
 category: music
 tags:
@@ -7,9 +7,14 @@ tags:
     - lockdown
     - tuba
 toc: true
+permalink: /music/brunel-lockdown-projects/
 ---
 
 In my non-working time I'm a musician – playing tuba in a few local orchestras and wind bands, and piano for myself in my room. Of course playing together in groups has not been possible for several months now, but one of Bristol's amateur orchestras – [Brunel Sinfonia](https://www.brunelsinfonia.org.uk) – has been able to organise _lockdown projects_ bringing us together virtually to play some pieces you can see on YouTube. Here are links to a few of these videos.
+
+### Largo from _New World Symphony,_ Antonín Dvořák
+
+{% include video id="wnkYhpww-dM" provider="youtube" %}
 
 ### _Love Actually,_ Craig Armstrong (arr. Tina Mehta) ###
 
