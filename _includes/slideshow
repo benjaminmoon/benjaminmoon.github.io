@@ -3,11 +3,12 @@
 
 {% assign slide_src = slide_src | strip %}
 
-Click in the frame or use the arrow keys to change slide: ←, ↑ to go backwards; → or ↓ to go forwards. You can also hover your mouse at the left edge to bring out a sidebar with all the slides.
-{: .notice--info}
-
 {% unless slide_src == "" %}
   <div class="slideshow">
     <iframe class="responsive-iframe" src="/slides/open-research-prize-2021/index.html#0"></iframe>
   </div>
 {% endunless %}
+
+Click in the frame or use the arrow keys to change slide: ← to go backwards; → to go forwards. You can also hover your mouse at the left edge to bring out a sidebar with all the slides.
+{: .notice--info}
+
