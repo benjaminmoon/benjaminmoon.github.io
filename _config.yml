@@ -105,6 +105,9 @@ collections:
   cv:
     output: true
     permalink: /:collection/:path/
+  slides:
+    output: true
+    permalink: /slides/:path/
 
 # Site Footer
 footer:
@@ -145,6 +148,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - Session.vim
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
@@ -272,3 +276,9 @@ defaults:
       author_profile: true
       share: false
       show_date: true
+  # _slides
+  # - scope:
+  #     path: "_slides"
+  #     type: slides
+  #   values:
+  #     share: false
