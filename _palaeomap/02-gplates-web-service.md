@@ -1,14 +1,12 @@
 ---
 title: GPlates Web Service
-last_modified_at: 2021-04-12
+last_modified_at: 2022-01-13
 ---
 
 A couple of packages already exist for using GPlates reconstructions to create palaeogeographical maps in R:
 
-*   NonaR/paleoMap (<https://github.com/NonaR/paleoMap>)
-    -   NB Has not been updated in several years.
+*   NonaR/paleoMap (<https://github.com/sonjaleo/paleoMap>)
 *   LunaSare/gplatesr (<https://github.com/LunaSare/gplatesr>)
-    -   More recently updated, and similar to above.
 
 Both of these download from GPlates Web Service (GWS). I've borrowed some of their functions for this lab group.
 
@@ -32,7 +30,8 @@ list.files("functions/", pattern = "\\.R", full.names = TRUE) %>%
     walk(source)
 ```
 
-**NB not all of the chunks should be run on Binder as some of the code will take a long time or fail to execute.**
+Not all of the chunks should be run on Binder as some of the code will take a long time or fail to execute.
+{: .notice--warning}
 
 ### Downloading from GWS
 
@@ -43,11 +42,12 @@ The process is:
 1. Download outlines of the continental coastlines.
 2. Download outlines of the tectonic plates.
 3. Read and convert these into a format that R and _ggplot2_ can use,
-  - this uses the packages _rgdal, readr,_ and _broom._
+  - this uses the packages _rgdal_, _readr_, and _broom_.
 4. Plot,
   - in this case with _ggplot._
 
 **Do not run this code on Binder.** The code below does these steps by downloading the data, which will likely take some time.
+{: .notice--danger}
 
 ```r
 coastline_gws_url <-
@@ -63,9 +63,10 @@ kimmeridgian_polygons <-
     broom::tidy()
 ```
 
-This chunk below replicates the above using data I've already downloaded from GWS and stored in the GitHub repository, and can be used on Binder. It has the same steps of loading and tidying the data, then includes the commands to plot with *ggplot2.*
+This chunk below replicates the above using data I've already downloaded from GWS and stored in the GitHub repository, and can be used on Binder. It has the same steps of loading and tidying the data, then includes the commands to plot with *ggplot2*.
 
-**Feel free to run this code on Binder.**
+Feel free to run this code on Binder.
+{: .notice--success}
 
 ```r
 # Load and tidy the data
@@ -113,15 +114,15 @@ The positions and extent of map areas from data in GPlates are stored as a serie
 
 ### Not quite right
 
-GWS is convenient for data and access, but the results in the plot above show the current continental coastlines and the plates. This does not reflect the ancient coastlines that were really after. Also, many of the countries are cross-cut by the polygons that form the sections in the model, which are untidy and typically not visible.
+GWS is convenient for data and access, but the results in the plot above show the current continental coastlines and the plates. This does not reflect the ancient coastlines that we're really after. Also, many of the countries are cross-cut by the polygons that form the sections in the model, which are untidy and typically not visible.
 
 We need to go to the next level: _true palaeogeographical reconstructions._ Fortunately GPlates offers that too.
 
 ### Exercises 2
 
-1. Have a look at the [GWS documentation](<https://github.com/GPlates/gplates_web_service_doc/wiki>). What address would you use to get reconstructed coastlines in the early Carboniferous using the @Matthews2016GPC model?
+1. Have a look at the [GWS documentation](<https://github.com/GPlates/gplates_web_service_doc/wiki>). What address would you use to get reconstructed coastlines in the early Carboniferous using the Matthews <i>et al.</i> (2016) model?
 2. Open an example of the OGR-GMT data from the GWS, either from the `data/GWS` folder or by downloading it. Can you see how the polygons are stored? How are different polygons identified?
-3. Now look at the tidied version in R, i.e. `kimmeridgian_coastlines` or `kimmeridgian_polygons`. By default this will only show the first 10 rows, but you can see more with, for example, `head(kimmeridgian_polygons, n = 50L)`. Can you see how the OGR-GMT data is transferred to this tidy format?
+3. Now look at the tidied version in R, i.e.\ `kimmeridgian_coastlines` or `kimmeridgian_polygons`. By default this will only show the first 10 rows, but you can see more with, for example, `head(kimmeridgian_polygons, n = 50L)`. Can you see how the OGR-GMT data is transferred to this tidy format?
 4. Play around with the inputs to the plot above. How messy or colourful can you make this map? What options are there in `theme_map()`? (Hint: use `?theme_map` to see.)
 
 ### References

@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-04-12
+last_modified_at: 2022-01-13
 title: Adding Fossil Occurrence Data
 ---
 
@@ -12,7 +12,8 @@ Of course, being me and having used Jurassic data, we're going to plot some icht
 
 The PBDB has its own web API (<https://paleobiodb.org/data1.2>) from which you can get occurrences, collections, taxonomy and other things. In the code chunk below I've crafted the URL to download the data, but this is already in the repo so doesn't need to be run.
 
-**Do not run the following chunk on Binder, the data is already in the repo.**
+Do not run the following chunk on Binder, the data are already in the repo.
+{: .notice--danger}
 
 ```R
 #### DO NOT RUN THIS CHUNK ####
@@ -28,6 +29,9 @@ The part of the URL `show=paleoloc` is the important bit as the PBDB has already
 ### Adding Occurrence Points
 
 With that all done, use the chunk below to add the occurrences onto the base map. These are plotted with `geom_point()`, which you may be familiar with, setting the _x_ and _y_ values to the palaeolongitude and palaeolatitude respectively.
+
+You can run this chunk and the following ones.
+{: .notice--success}
 
 ```r
 occ_ichthyosaurs <-
@@ -50,7 +54,7 @@ occ_plot
     caption="**Occurrences of ichthyosaurs from the Callovian–Tithonian.** Palaeogeographical map shows the distribution of land in the Kimmeridgian (155 Ma) reconstructed by Cao et al. (2017). Occurrences of Ichthyosauromorpha are from the Palaeobiology Database."
 %}
 
-### Mismatch in locations
+### Mismatch in Locations
 
 The more eagle-eyed of you may notice that some of these _marine_ ichthyosaur occurrences are located resolutely in the middle of landmasses. There are a few possible reasons for that:
 
@@ -66,11 +70,11 @@ _Incorrect modern location_ may be the easiest to discount as localities tend to
 
 _Incorrect age assignment_ is probably the most likely cause, or perhaps better _imprecise_ ages. The palaeocoordinates calculated for each occurrence in the PBDB use the midpoint of its temporal range. Sometimes this range can be quite large, such as the several species of _Undorosaurus_ that cover the whole Late Jurassic (163.5–145 Ma in [GTS 2020/03](https://stratigraphy.org/ICSchart/ChronostratChart2020-03.pdf)). Those specimens from Patagonia that are plotted in the middle of the land are also similarly imprecisely dated. Their palaeocoordinates are reconstructed to the middle Kimmeridgian, whereas they are likely later (given the occurrence of ichthyosaurs from similar locations) when there was a sea there to swim in.
 
-As the ichthyosaur occurrences included over over 20 my of earth history there will be changes in palaeogeography, and some potentially imprecise dating.
+As the ichthyosaur occurrences included cover over 20 Ma of earth history there will be changes in palaeogeography, and some potentially imprecise dating.
 
 The ways around this are to have more time slices with the occurrences plotted, but this complicates the code and any plots, and such precise reconstructions may not be available. Alternatively, aim to use only the most precisely dated occurrences, if possible, but this can remove lots of useful data. Ultimately, you may just have to accept that some marine occurrences may appear on land, or vice versa.
 
-### Going further 2: separating occurrences with facets
+### Going Further 2: Separating Occurrences with Facets
 
 The final thing that you can try is the _faceting_ power of _ggplot2_ to separate the different groups of occurrences. Below, this code splits out the occurrences by their accepted taxonomic rank. Most occurrences are just non-diagnostic vertebral material, so can't be assigned to a family, genus or species. These are listed under 'unranked_clade'.
 
@@ -89,11 +93,11 @@ occ_plot +
 
 ### Exercises 4
 
-1. Look at the PBDB web API (<https://paleobiodb.org/data1.2>). What other options and data sets can you access with this? Can you craft a URL that will download occurrence data of Tithonian bivalves.
+1. Look at the PBDB web API (<https://paleobiodb.org/data1.2>). What other options and data sets can you access with this? Can you craft a URL that will download occurrence data of Tithonian bivalves?
   - This download may not work on Binder, so you should do it in R on your own computer.
-2. Try adding colour or shapes to you occurrence points using the options in `geom_point`.
-3. Download and plot the palaeogeographical map and occurrences for your favourite group in your favourite stage. Again this should be done on your own computer. Beware it may take a while if you want to plot many occurrences.
-4. It's also useful to separate out occurrences on the map, for instance, can you colour occurrences within the outside the tropics differently? say red in the tropics (±23.5°) and blue outside.
+2. Try adding colour or shapes to your occurrence points using the options in `geom_point`.
+3. Download and plot the palaeogeographical map and occurrences for your favourite group in your favourite stage. Again this should be done on your own computer. Beware: it may take a while if you want to plot many occurrences.
+4. It's also useful to separate out occurrences on the map, for instance, can you colour occurrences inside and outside the tropics differently? say red within the tropics (±23.5°) and blue outside.
   - Hint: you can use the palaeocoordinates of the PBDB data to assign a group to each occurrence, use this to colour the points in `geom_point`.
   - Hint: use `scale_colour_discrete` to colour the points. See the code of `palaeogeog_map_niceties` (`functions/palaeogeog_map_niceties.R`) for an example of doing this.
 

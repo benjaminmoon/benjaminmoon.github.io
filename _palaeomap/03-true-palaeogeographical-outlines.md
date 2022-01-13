@@ -1,9 +1,9 @@
 ---
-last_modified_at: 2021-04-12
+last_modified_at: 2022-01-13 
 title: "True Palaeogeographical Outlines"
 ---
 
-Among the projects included with the GPlates download is the set of palaeogeographical reconstructions by Cao _et al._ (2017) for the last 402 my. These are based, and so should align nicely, with the Golonka (2007) model that is used for data in the PBDB, which we'll get to below. These data are in `GPlatesSampleData/FeatureCollections/Palaeogeography/Global/`.
+Among the projects included with the GPlates download is the set of palaeogeographical reconstructions by Cao _et al._ (2017) for the last 402 Ma. These are based, and so should align nicely, with the Golonka (2007) model that is used for data in the PBDB, which we'll get to below. These data are in `GPlatesSampleData/FeatureCollections/Palaeogeography/Global/`.
 
 ### Reconstructing Geography with Occurrences
 
@@ -46,7 +46,7 @@ The Cao _et al._ (2017) reconstructions aren't available from GWS, but can be ex
     caption="Layer selection in GPlates export. Select Reconstructed geometries, OGR-GMT, and multiple layers."
 %}
 
-The example data are in `data/palaeogeography` as three `.gmt` files that describe the polygon outlines for each of the layers. Note that as there are no ice caps at this time, there are only three files/layers. Look at the Carboniferous of later Palaeogene to get some ice caps.
+The example data are in `data/palaeogeography` as three `.gmt` files that describe the polygon outlines for each of the layers. Note that as there are no ice caps at this time, there are only three files/layers. Look at the Carboniferous or later Palaeogene to get some ice caps.
 
 ### Read in the map data
 
@@ -69,7 +69,7 @@ map_layers <-
 
 With that ready, the following code reads and tidies the data (as for above), then adds a column (geog_layer) to identify the data layer (shallow marine, land, mountain) and joins all the data together. It's very _tidyverse_ based, so I'd suggest looking at <https://www.tidyverse.org> to see the rationale and how they link using the _pipe_ (`%>%`). You can also see more about individual functions in the R help.
 
-The final step is to create a column (polygon_id) to identify each region on the, which come after mountain map. I had a long issue where different continents would join up, or Australia's land would always appear plotted underneath the sea. As described above, this is because the shapes on the map are plotted as separate polygons, and the IDs are repeated between each of the layers. We'll use the polygon_id column to make sure that each polygon has a unique ID by joining the layer, group and id name from the tidied data.
+The final step is to create a column (polygon_id) to identify each region. I had a long issue where different continents would join up, or Australia's land would always appear plotted underneath the sea. As described above, this is because the shapes on the map are plotted as separate polygons, and the IDs are repeated between each of the layers. We'll use the polygon_id column to make sure that each polygon has a unique ID by joining the layer, group and id name from the tidied data.
 
 ```r
 polygon_data <- 
@@ -124,7 +124,7 @@ ggplot() +
   geom_map() + …
 ```
 
-Instead, you can use the function `geom_polygon` and have the different layers plotted automatically with the colours assigned above. The _fill_ is the most important argument as that assigns the main bulk of the colour. The _colour_ argument is the outline, which you shouldn't use bas that will outline the map layers and change their shape. The `colour` argument will be used when plotting occurrence points (see below). Also having the ordered and correctly grouped _polygon_id_ is important here as that determines how the individual polygons are grouped and closed, preventing shapes from spanning the globe, or incorrectly overlapping.
+Instead, you can use the function `geom_polygon` and have the different layers plotted automatically with the colours assigned above. The _fill_ is the most important argument as that assigns the main bulk of the colour. The _colour_ argument is the outline, which you shouldn't use as that will outline the map layers and change their shape. The `colour` argument will be used when plotting occurrence points (see below). Also having the ordered and correctly grouped _polygon_id_ is important here as that determines how the individual polygons are grouped and closed, preventing shapes from spanning the globe, or incorrectly overlapping.
 
 I'll point out here that there's quite a lot going on in the `palaeogeog_map_niceties` function at the end. This is a collection of theme options and a colour scale to show the map properly. In particular this adds the outline and the lines of the equator and tropics. I guess one thing to note is that the 'tropics', in a biodiversity sense, may not be the same in the past as the present. Increased temperatures can change the latitudinal biodiversity gradient. Also, obliquity and precession change the latitudes of the astronomical tropics through
 time.

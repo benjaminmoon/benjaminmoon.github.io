@@ -1,6 +1,6 @@
 ---
 title: Introduction
-last_modified_at: 2021-04-12 
+last_modified_at: 2022-01-13 
 redirect_from:
   - /research/palaeogeographical-maps-in-r/
 ---
@@ -31,7 +31,7 @@ Maps are essential when discussing occurrences of taxa, both in the present and 
 
 
 {% include figure
-    image_path="https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20201223091456984-0252:S0016756820001351:S0016756820001351_fig1.png"
+    image_path="https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary-alt:20210611100744-05143-optimisedImage-S0016756820001351_fig1.jpg"
     alt="Occurrences of Jurassic polar ichthyosaurs"
     caption="Here, Zverkov _et al._ (2020) show occurrences of ichthyosaurs in the Early Jurassic."
 %}
