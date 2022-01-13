@@ -5,43 +5,43 @@
 @charset "utf-8";
 
 @font-face{
-    font-family: 'Source Sans Variable';
+    font-family: 'Source Sans 3 VF';
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/WOFF2/VAR/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/VAR/SourceSansVariable-Roman.ttf.woff') format('woff'),
-         url('../fonts/VAR/SourceSansVariable-Roman.ttf') format('truetype');
+    src: url('WOFF2/VAR/SourceSans3VF-Roman.ttf.woff2') format('woff2'),
+         url('WOFF/VAR/SourceSans3VF-Roman.ttf.woff') format('woff'),
+         url('VAR/SourceSans3VF-Roman.ttf') format('truetype');
 }
 
 @font-face{
-    font-family: 'Source Sans Variable';
+    font-family: 'Source Sans 3 VF';
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/WOFF2/VAR/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/VAR/SourceSansVariable-Italic.ttf.woff') format('woff'),
-         url('../fonts/VAR/SourceSansVariable-Italic.ttf') format('truetype');
+    src: url('WOFF2/VAR/SourceSans3VF-Italic.ttf.woff2') format('woff2'),
+         url('WOFF/VAR/SourceSans3VF-Italic.ttf.woff') format('woff'),
+         url('VAR/SourceSans3VF-Italic.ttf') format('truetype');
 }
 
 @font-face{
-    font-family: 'Source Serif Variable';
+    font-family: 'Source Serif VF';
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/WOFF2/VAR/SourceSerifVariable-Roman.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/VAR/SourceSerifVariable-Roman.ttf.woff') format('woff'),
-         url('../fonts/VAR/SourceSerifVariable-Roman.ttf') format('truetype');
+    src: url('./WOFF2/VAR/SourceSerif4Variable-Roman.ttf.woff2') format('woff2'),
+         url('./WOFF/VAR/SourceSerif4Variable-Roman.ttf.woff') format('woff'),
+         url('./VAR/SourceSerif4Variable-Roman.ttf') format('truetype');
 }
 
 @font-face{
-    font-family: 'Source Serif Variable';
+    font-family: 'Source Serif VF';
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/WOFF2/VAR/SourceSerifVariable-Italic.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/VAR/SourceSerifVariable-Italic.ttf.woff') format('woff'),
-         url('../fonts/VAR/SourceSerifVariable-Italic.ttf') format('truetype');
+    src: url('./WOFF2/VAR/SourceSerif4Variable-Italic.ttf.woff2') format('woff2'),
+         url('./WOFF/VAR/SourceSerif4Variable-Italic.ttf.woff') format('woff'),
+         url('./VAR/SourceSerif4Variable-Italic.ttf') format('truetype');
 }
 
 @font-face{
@@ -49,9 +49,9 @@
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/WOFF2/VAR/SourceCodeVariable-Roman.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/VAR/SourceCodeVariable-Roman.ttf.woff') format('woff'),
-         url('../fonts/VAR/SourceCodeVariable-Roman.ttf') format('truetype');
+    src: url('./WOFF2/VAR/SourceCodeVariable-Roman.ttf.woff2') format('woff2'),
+         url('./WOFF/VAR/SourceCodeVariable-Roman.ttf.woff') format('woff'),
+         url('./VAR/SourceCodeVariable-Roman.ttf') format('truetype');
 }
 
 @font-face{
@@ -59,14 +59,14 @@
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/WOFF2/VAR/SourceCodeVariable-Italic.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/VAR/SourceCodeVariable-Italic.ttf.woff') format('woff'),
-         url('../fonts/VAR/SourceCodeVariable-Italic.ttf') format('truetype');
+    src: url('./WOFF2/VAR/SourceCodeVariable-Italic.ttf.woff2') format('woff2'),
+         url('./WOFF/VAR/SourceCodeVariable-Italic.ttf.woff') format('woff'),
+         url('./VAR/SourceCodeVariable-Italic.ttf') format('truetype');
 }
 
 /* custom typefaces */
-$serif: 'Source Serif Variable', serif !default;
-$sans-serif: 'Source Sans Variable', sans-serif !default;
+$serif: 'Source Serif VF', serif !default;
+$sans-serif: 'Source Sans 3 VF', sans-serif !default;
 $monospace: 'Source Code Variable', monospace !default;
 
 /* sans serif typefaces */
@@ -96,22 +96,40 @@ body {
 $reddit-color: #ff4500 !default;
 
 /* syntax highlighting in Solarized Dark */
-$base00: #002b36 !default;
+// $base00: #002b36 !default;
+// $base01: #073642 !default;
+// $base02: #586e75 !default;
+// $base03: #657b83 !default;
+// $base04: #839496 !default;
+// $base05: #93a1a1 !default;
+// $base06: #eee8d5 !default;
+// $base07: #fdf6e3 !default;
+// $base08: #b58900 !default;
+// $base09: #6c71c4 !default;
+// $base0a: #dc322f !default;
+// $base0b: #2aa198 !default;
+// $base0c: #cb4b16 !default;
+// $base0d: #268bd2 !default;
+// $base0e: #d33682 !default;
+// $base0f: #859900 !default;
+/* solarized light syntax highlighting (base16) */
+$base00: #fafafa !default;
 $base01: #073642 !default;
 $base02: #586e75 !default;
 $base03: #657b83 !default;
 $base04: #839496 !default;
-$base05: #93a1a1 !default;
+$base05: #586e75 !default;
 $base06: #eee8d5 !default;
 $base07: #fdf6e3 !default;
-$base08: #b58900 !default;
-$base09: #6c71c4 !default;
-$base0a: #dc322f !default;
-$base0b: #2aa198 !default;
-$base0c: #cb4b16 !default;
+$base08: #dc322f !default;
+$base09: #cb4b16 !default;
+$base0a: #b58900 !default;
+$base0b: #859900 !default;
+$base0c: #2aa198 !default;
 $base0d: #268bd2 !default;
-$base0e: #d33682 !default;
-$base0f: #859900 !default;
+$base0e: #6c71c4 !default;
+$base0f: #d33682 !default;
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -137,4 +155,13 @@ $base0f: #859900 !default;
   right: 0;
   width: 100%;
   height: 100%;
+
+kbd {
+    border: 1px solid #666666;
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin: 2px;
+    color: #dfdfdf;
+    background-color: #444444;
+    text-decoration: none;
 }

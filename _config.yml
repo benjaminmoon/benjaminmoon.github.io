@@ -108,6 +108,12 @@ collections:
   slides:
     output: true
     permalink: /slides/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+  palaeomap:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Footer
 footer:
@@ -176,6 +182,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
 
 
 # Sass/SCSS
@@ -269,7 +276,7 @@ defaults:
       author_profile: true
   # _cv
   - scope:
-      path: "_cv"
+      path: ""
       type: cv
     values:
       layout: cv_posts 
@@ -282,3 +289,31 @@ defaults:
   #     type: slides
   #   values:
   #     share: false
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: long_post 
+      author_profile: false
+      read_time: true
+      show_date: false 
+      comments: true
+      share: true
+      related: true
+      toc_sticky:  true
+  - scope:
+      path: ""
+      type: palaeomap
+    values:
+      layout: long_post
+      author_profile: false
+      read_time: true
+      show_date: false
+      comments: true
+      share: true
+      relatied: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+          nav: "palaeomap"

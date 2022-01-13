@@ -16,11 +16,18 @@ feature_row:
     btn_label: "Read more"
   - image_path: "assets/images/me-georgia-home-500x300.jpg"
     alt: "About Me"
-    title: "Curriculum Vitae"
+    title: "Curriculum vitae"
     excerpt: "Find out about my interests, work, and experience"
     url: /about/
     btn_class: "btn--primary"
     btn_label: "About me"
+  - image_path: "assets/images/teaser-S_triscissus-skull-BRLSI-M1409.jpg"
+    alt: "Research interests"
+    title: "Research interests"
+    excerpt: "Learn about the methods that I use and the critters I study"
+    url: /research/
+    btn_class: "btn--primary"
+    btn_label: "My research"
 ---
 
 Palaeobiologist by day, tuba player by night, and a fan of beautiful typography

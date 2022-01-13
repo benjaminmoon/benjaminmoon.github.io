@@ -4,3 +4,20 @@ main:
     url: /about/ 
   - title: "Posts"
     url: /posts/
+  - title: "Research"
+    url: /research/
+
+palaeomap:
+    - title: Palaeogeographical Maps in R Workshop
+      children:
+          - title: "Introduction"
+            url: /palaeomap/01-introduction/
+          - title: "GPlates Web Service"
+            url: /palaeomap/02-gplates-web-service/
+          - title: "True Palaeogeographical Outlines"
+            url: /palaeomap/03-true-palaeogeographical-outlines/
+          - title: "Adding Fossil Occurrence Data"
+            url: /palaeomap/04-adding-fossil-occurrence-data/
+          - title: "Suggested Solutions to Exercises"
+            url: /palaeomap/05-suggested-solutions-to-exercises/
+
