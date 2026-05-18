@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-gem "faraday", "2.14.1"
+gem "faraday", "2.14.2"
 
 # remediation CVE-2020-14001
 gem "kramdown", ">= 2.3.0"
