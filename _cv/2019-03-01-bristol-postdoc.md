@@ -1,7 +1,7 @@
 ---
 title: "Postdoctoral Senior Research Associate"
 start-date: 2019-03-01
-end-date: Present
+end-date: 2022-09-01
 position: "Postdoctoral Senior Research Associate"
 institution: "University of Bristol"
 pub-type: academia
