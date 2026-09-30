@@ -1,7 +1,7 @@
 ---
 title: "*Monographs of the Palaeontographical Society*, Editor"
 start-date: 2021-05-27
-end-date: Present
+end-date: 2026-04-15
 institution: "Palaeontographical Society"
 pub-type: professional
 last_modified_at: 2021-07-13
